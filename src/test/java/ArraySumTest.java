@@ -17,4 +17,10 @@ public class ArraySumTest {
         int target = 14;
         Assert.assertNotEquals(target, as.sum(nums));
     }
+    @Test
+    public void testSumZeroes(){
+        int[] nums = {0, 0, 0};
+        int target = 0;
+        Assert.assertNotEquals(target, as.sum(nums));
+    }
 }
