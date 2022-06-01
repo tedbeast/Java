@@ -21,6 +21,6 @@ public class ArraySumTest {
     public void testSumZeroes(){
         int[] nums = {0, 0, 0};
         int target = 0;
-        Assert.assertNotEquals(target, as.sum(nums));
+        Assert.assertEquals(target, as.sum(nums));
     }
 }
