@@ -6,14 +6,9 @@ import java.util.stream.Stream;
 
 public class FilterZeroes {
     public int[] filter(int[] nums){
-
-        IntStream stream = Arrays.stream(nums);
 //        for every item in a stream (this item being represented by n)
 //        see if this conditional is met: and if so, put it into a new stream
-        IntStream filteredStream = stream.filter(n -> n!=0);
-
-        int[] filteredArray = filteredStream.toArray();
-        return filteredArray;
+        return null;
     }
 }
 /*

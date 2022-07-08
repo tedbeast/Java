@@ -2,8 +2,7 @@ package Level1.RemoveAllCharacter;
 
 public class RemoveAllCharacter {
     public String removeAll(String s, String c){
-        String replaced = s.replaceAll(c, "");
-        return replaced;
+        return null;
     }
     /*
     useful string methods:
