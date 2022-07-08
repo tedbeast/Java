@@ -1,4 +1,4 @@
-package Level1.Checkerboard;
+package Level2.Checkerboard;
 /*
 
 create a checkerboard of size n

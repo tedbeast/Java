@@ -1,4 +1,4 @@
-import Level1.Checkerboard.Checkerboard;
+import Level2.Checkerboard.Checkerboard;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
