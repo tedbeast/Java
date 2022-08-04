@@ -1,6 +1,7 @@
 package Challenges.Level2.LargestSum;
 
 import Challenges.Level2.LargestSum.LargestSum;
+;
 import org.junit.Assert;
 import org.junit.Test;
 

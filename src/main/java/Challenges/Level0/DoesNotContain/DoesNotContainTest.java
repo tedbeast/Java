@@ -1,6 +1,8 @@
 package Challenges.Level0.DoesNotContain;
 
 import Challenges.Level0.DoesNotContain.DoesNotContain;
+;
+
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;

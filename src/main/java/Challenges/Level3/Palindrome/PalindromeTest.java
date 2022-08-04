@@ -1,6 +1,8 @@
 package Challenges.Level3.Palindrome;
 
 import Challenges.Level3.Palindrome.Palindrome;
+;
+
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;

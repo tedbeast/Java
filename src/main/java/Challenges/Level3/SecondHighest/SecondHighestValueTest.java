@@ -1,6 +1,8 @@
 package Challenges.Level3.SecondHighest;
 
 import Challenges.Level3.SecondHighest.SecondHighestValue;
+;
+
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;

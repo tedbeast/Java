@@ -1,6 +1,7 @@
 package Challenges.Level1.ArraySum;
 
 import Challenges.Level1.ArraySum.ArraySum;
+;
 import org.junit.Assert;
 import org.junit.Test;
 

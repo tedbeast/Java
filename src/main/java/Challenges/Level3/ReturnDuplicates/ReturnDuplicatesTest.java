@@ -1,6 +1,8 @@
 package Challenges.Level3.ReturnDuplicates;
 
 import Challenges.Level3.ReturnDuplicates.ReturnDuplicates;
+;
+
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;

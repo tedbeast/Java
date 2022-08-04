@@ -1,5 +1,4 @@
 package Core.OOP.ObjectMethods.Equals;
-
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;

@@ -1,6 +1,7 @@
 package Challenges.Level1.ArrayAbsoluteValue;
 
 import Challenges.Level1.ArrayAbsoluteValue.ArrayAbsoluteValue;
+;
 import org.junit.Assert;
 import org.junit.Test;
 

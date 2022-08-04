@@ -1,9 +1,7 @@
-package Core.Exception;
-
-import Core.Exception.ExceptionChallenge;
+package Core.Exception.ExceptionThrow;
 import org.junit.Assert;
-import org.junit.BeforeClass;
 import org.junit.Test;
+import org.junit.BeforeClass;
 
 public class ExceptionTest {
     static ExceptionChallenge ec;

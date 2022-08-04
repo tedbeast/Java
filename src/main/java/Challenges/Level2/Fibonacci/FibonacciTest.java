@@ -1,6 +1,8 @@
 package Challenges.Level2.Fibonacci;
 
 import Challenges.Level2.Fibonacci.Fibonacci;
+;
+
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;

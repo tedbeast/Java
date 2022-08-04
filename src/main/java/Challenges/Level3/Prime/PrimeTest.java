@@ -1,6 +1,7 @@
 package Challenges.Level3.Prime;
 
 import Challenges.Level3.Prime.Prime;
+;
 import org.junit.Assert;
 import org.junit.Test;
 

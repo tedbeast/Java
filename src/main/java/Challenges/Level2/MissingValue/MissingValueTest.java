@@ -1,6 +1,8 @@
 package Challenges.Level2.MissingValue;
 
 import Challenges.Level2.MissingValue.MissingValue;
+;
+
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;

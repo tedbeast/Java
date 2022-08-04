@@ -18,7 +18,7 @@ You may notice that the challenges require a different skillset than the core la
 
 Please remember that you learn nothing and gain nothing from copying solutions into your IDE. Yes, I know that you are doing it. Yes, you.
 
-If you are able to complete all level 4 challenges, you probably don't have much to gain from practicing challenges and should move on to frameworks, algorithms/data structures, advanced topics, and helping others.
+If you are able to complete all level 4 challenges, you probably don't have much to gain from practicing challenges and should move on to frameworks, algorithms/data structures, advanced topics, and helping others. I would consider the level 5 challenges to be 'just for fun.'
 
 All the best
 

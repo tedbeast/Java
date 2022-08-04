@@ -1,6 +1,7 @@
 package Challenges.Level4.Rotate;
 
 import Challenges.Level4.Rotate.RotateArray;
+;
 import org.junit.Assert;
 import org.junit.Test;
 

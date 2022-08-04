@@ -1,6 +1,8 @@
 package Challenges.Level0.GreaterOrLesser;
 
 import Challenges.Level0.GreaterOrLesser.GreaterOrLesser;
+;
+
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;

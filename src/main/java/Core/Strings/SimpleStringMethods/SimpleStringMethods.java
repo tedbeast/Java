@@ -10,7 +10,5 @@ public class SimpleStringMethods {
     public int indexOf(String s, int n){
         return 0;
     }
-    public int compareTo(String s1, String s2){
-        return 0;
-    }
+
 }

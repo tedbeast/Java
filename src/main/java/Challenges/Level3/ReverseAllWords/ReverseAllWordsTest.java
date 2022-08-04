@@ -1,6 +1,8 @@
 package Challenges.Level3.ReverseAllWords;
 
 import Challenges.Level3.ReverseAllWords.ReverseAllWords;
+;
+
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;

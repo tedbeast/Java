@@ -1,6 +1,8 @@
 package Challenges.Level1.IsSorted;
 
 import Challenges.Level1.IsSorted.IsSorted;
+;
+
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;

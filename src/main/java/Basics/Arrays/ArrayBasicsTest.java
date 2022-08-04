@@ -4,6 +4,9 @@ import Basics.Arrays.ArrayBasics;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
+;
+
+import org.junit.Test;
 
 public class ArrayBasicsTest {
     static ArrayBasics ab;

@@ -1,6 +1,7 @@
 package Challenges.Level2.InsertPosition;
 
 import Challenges.Level2.InsertPosition.InsertPosition;
+;
 import org.junit.Assert;
 import org.junit.Test;
 

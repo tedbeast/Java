@@ -1,6 +1,8 @@
 package Challenges.Level0.Contains;
 
 import Challenges.Level0.Contains.Contains;
+;
+
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;

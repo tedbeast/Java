@@ -1,6 +1,8 @@
 package Basics.START_HERE;
 //We have to import the classes we want to use.
 import Basics.START_HERE.Guide;
+;
+
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -8,7 +10,7 @@ import org.junit.Test;
 /*
 To create test cases, we're leveraging junit. Junit is a testing framework which we've added to our application
 using Maven dependency manager. You can take a look at the pom.xml to understand Maven better.
-Junit will run methods marked with its annotations and test if they pass Assertions.
+Junit will run methods marked with its annotations and test if they pass Assert.
 
 There should be a green arrow by line 15, go ahead and run it to run this test class.
  */
@@ -37,7 +39,7 @@ its fields or methods.
     }
     /*
     The @Test annotation defines a method that will be used as a test. Typically in a test, we must define certain
-    inputs and some expected output, and compare it to the actual behavior of our object. We use Junit's Assertions
+    inputs and some expected output, and compare it to the actual behavior of our object. We use Junit's Assert
     to see if a test actually passes or fails.
      */
     @Test

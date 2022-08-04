@@ -7,6 +7,6 @@ you can implement multiple interfaces, unlike classes, since you cannot extend m
 
 public interface Comparable<T> {
 
-    public int compareTo(T data);
+    int compareTo(T data);
 
 }

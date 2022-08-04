@@ -1,6 +1,8 @@
 package Challenges.Level4.Cipher;
 
 import Challenges.Level4.Cipher.Cipher;
+;
+
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;

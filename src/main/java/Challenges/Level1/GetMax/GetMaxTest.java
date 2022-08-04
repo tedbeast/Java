@@ -1,6 +1,8 @@
 package Challenges.Level1.GetMax;
 
 import Challenges.Level1.GetMax.GetMax;
+;
+
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;

@@ -1,6 +1,7 @@
 package Challenges.Level1.Average;
 
 import Challenges.Level1.Average.Average;
+;
 import org.junit.Assert;
 import org.junit.Test;
 

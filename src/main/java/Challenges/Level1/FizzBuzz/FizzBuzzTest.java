@@ -1,6 +1,7 @@
 package Challenges.Level1.FizzBuzz;
 
 import Challenges.Level1.FizzBuzz.FizzBuzz;
+;
 import org.junit.Assert;
 import org.junit.Test;
 

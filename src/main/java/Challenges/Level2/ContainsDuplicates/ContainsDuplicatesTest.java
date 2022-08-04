@@ -1,6 +1,7 @@
 package Challenges.Level2.ContainsDuplicates;
 
 import Challenges.Level2.ContainsDuplicates.ContainsDuplicates;
+;
 import org.junit.Assert;
 import org.junit.Test;
 

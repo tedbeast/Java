@@ -1,6 +1,7 @@
 package Challenges.Level4.TicTacToe;
 
 import Challenges.Level4.TicTacToe.TicTacToe;
+;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -57,5 +58,41 @@ public class TicTacToeTest {
                 {'O', 'O', 'X'},
                 {'X', 'X', 'O'}};
         Assert.assertEquals('T', new TicTacToe().validateWin(board));
+    }
+
+    @Test
+    public void testValidateWin8() {
+        char[][] board = {{'O', 'O', 'X'},
+                {'O', 'O', 'X'},
+                {'X', 'X', 'O'}};
+        Assert.assertEquals('O', new TicTacToe().validateWin(board));
+    }
+
+    @Test
+    public void testValidateWin9() {
+        char[][] board =    {{'X', 'O', 'X', 'O'},
+                            {'O', 'X', 'O', 'X'},
+                            {'O', 'X', 'O', 'X'},
+                            {'X', 'O', 'X', 'O'}};
+        Assert.assertEquals('T', new TicTacToe().validateWin(board));
+    }
+    @Test
+    public void testValidateWin10() {
+        char[][] board =    {{'X', 'O', 'X', 'O'},
+                            {'O', 'X', 'O', 'O'},
+                            {'O', 'X', 'X', 'X'},
+                            {'O', 'O', 'X', 'X'}};
+        Assert.assertEquals('X', new TicTacToe().validateWin(board));
+    }
+    @Test
+    public void testValidateWin11() {
+        char[][] board =    {
+                            {'X', 'O', 'X', 'O', 'O'},
+                            {'O', 'X', 'O', 'O', 'O'},
+                            {'O', 'X', 'X', 'X', 'O'},
+                            {'O', 'O', 'X', 'X', 'O'},
+                            {'X', 'O', 'X', 'X', 'O'}
+        };
+        Assert.assertEquals('O', new TicTacToe().validateWin(board));
     }
 }

@@ -1,6 +1,8 @@
 package Challenges.Level1.IndexOf;
 
 import Challenges.Level1.IndexOf.IndexOf;
+;
+
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;

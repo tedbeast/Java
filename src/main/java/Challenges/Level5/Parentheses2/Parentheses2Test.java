@@ -1,6 +1,5 @@
 package Challenges.Level5.Parentheses2;
 
-import Challenges.Level5.Parentheses2.Parentheses2;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;

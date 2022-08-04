@@ -1,6 +1,7 @@
 package Challenges.Level1.ReturnLongestString;
 
 import Challenges.Level1.ReturnLongestString.ReturnLongestString;
+;
 import org.junit.Assert;
 import org.junit.Test;
 
