@@ -6,6 +6,7 @@ This repository is intended to help you learn some topics of our core language (
 The repo contains:
 * A programming basics package (if needed)
 * A core language package (which should be completed week 1-2)
+* A fileIO package (which you should try after you gain some familiarity with Java)
 * An advanced java package (which you should consider trying sometime after week 2)
 * A coding challenges package (which should be worked on continuously throughout the training)
 

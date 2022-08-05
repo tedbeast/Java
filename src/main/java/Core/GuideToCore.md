@@ -1,5 +1,5 @@
 # Core language knowledge
-The purpose of this section is to help you learn Java-specific syntax surrounding concepts like Collections, Exceptions, Object-class methods, and Strings. Even people with familiarity with Java should benefit from these exercises. Most problems here should be completable with just a single line of code: the objective is for you all to research what that line may be.
+The purpose of this section is to help you learn Java-specific syntax surrounding concepts like Collections, Exceptions, Object-class methods, and Strings. Even people with familiarity with Java should benefit from these exercises. Most problems here should be completable with just 1-2 lines of code: the objective is for you all to research what those lines may be.
 
 # Research process
 
