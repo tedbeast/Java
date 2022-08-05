@@ -1,6 +1,5 @@
 package Basics.START_HERE;
 //We have to import the classes we want to use.
-import Basics.START_HERE.Guide;
 ;
 
 import org.junit.Assert;

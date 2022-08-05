@@ -1,6 +1,5 @@
 package Basics.BooleanExpressions.Comparators;
 
-import Basics.BooleanExpressions.Comparators.Comparators;
 ;
 
 import org.junit.Assert;

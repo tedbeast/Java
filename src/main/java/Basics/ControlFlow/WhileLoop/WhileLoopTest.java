@@ -1,7 +1,6 @@
 package Basics.ControlFlow.WhileLoop;
 
 
-import Basics.ControlFlow.WhileLoop.WhileLoop;
 ;
 
 import org.junit.Assert;

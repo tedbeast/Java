@@ -1,6 +1,5 @@
 package Basics.BooleanExpressions.AdvancedBooleanLogic;
 
-import Basics.BooleanExpressions.AdvancedBooleanLogic.AdvancedBooleanLogic;
 ;
 
 import org.junit.Assert;

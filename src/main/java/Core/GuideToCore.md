@@ -24,6 +24,8 @@ Knowing how to interpret documentation will become particularly useful when we s
 
 You may notice that Intellij comes packaged with handly autocomplete and suggested action tooltips. This isn't this end of it, however: if you hold Ctrl on your keyboard and click on a class name or method, you can navigate to that class or method and potentially see Java's own implementation of classes! I recommend trying this with Strings or Collections.
 
+No. of questions: 45
+
 All the best
 
 Ted Balashov

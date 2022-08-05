@@ -7,3 +7,6 @@ public class RecurringWord {
         return false;
     }
 }
+/*
+if you think this problem is cool, look into rabin-karp algorithm
+ */

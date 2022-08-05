@@ -20,6 +20,8 @@ Please remember that you learn nothing and gain nothing from copying solutions i
 
 If you are able to complete all level 4 challenges, you probably don't have much to gain from practicing challenges and should move on to frameworks, algorithms/data structures, advanced topics, and helping others. I would consider the level 5 challenges to be 'just for fun.'
 
+No. of challenges: 60
+
 All the best
 
 Ted Balashov

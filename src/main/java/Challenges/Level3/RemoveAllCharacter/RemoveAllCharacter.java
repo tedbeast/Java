@@ -1,4 +1,4 @@
-package Challenges.Level2.RemoveAllCharacter;
+package Challenges.Level3.RemoveAllCharacter;
 
 public class RemoveAllCharacter {
     public String removeAll(String s, String c){

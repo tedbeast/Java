@@ -1,6 +1,5 @@
 package Basics.ControlFlow.IfStatement;
 
-import Basics.ControlFlow.IfStatement.IfStatement;
 ;
 
 import org.junit.Assert;
