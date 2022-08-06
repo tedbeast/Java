@@ -21,6 +21,17 @@ The structure of a junit test class is as follows: every one of the test classes
 
 In order to run the tests, you should be able to run them in intellij in the same way that you run any main class (the 'magic green button' to the left of your code). Mind that, in intellij, the 'magic green button' at the top right of the class reflects the last-run class, not the class you are currently looking at. You could also use maven command mvn:test, but that will run all the test cases which will take too long.
 
+## Approximate deadlines
+Although I aim to make learning personalized to all skill levels, there are also minimum expectations to be met in your ability to complete the contained challenges.
+
+1) Basics and level 0 challenges should be **completed within the first week, ie, by Friday of week 1,** if you are in a 12-week cohort. This is a hard deadline.
+2) Core should be completable by week 2 of both 10-week and 12-week cohorts.
+3) Level 1 challenges and FileIO-easy should be completable by the end of your first project.
+4) Level 2 challenges and FileIO-hard should be completable by the end of your second project.
+5) Level 3 challenges and DSA-easy should be completable by the end of the training.
+
+If you are able to proceed at a faster pace, please do so, and I also recommend continuing incomplete content into Staging.
+
 ## Take breaks
 
 "Every day we should hear at least one little song, read one good poem, see one exquisite picture, and, if possible, speak a few sensible words." *Johann Wolfgang von Goethe*
