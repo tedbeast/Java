@@ -1,14 +1,7 @@
 # Core Language Repo
 Hello!
 
-This repository is intended to help you learn some topics of our core language (java). This style of repo grew from my desire for you all to improve at your own pace and skill level. You should be able to complete the problems of the Basic section before moving on to the Core section, and you should be able to complete the Core section before proceeding to the Challenges or Advanced section. It's fine to skip sections if they are too trivial for you.
-
-The repo contains:
-* A programming basics package (if needed)
-* A core language package (which should be completed week 1-2)
-* A fileIO package (which you should try after you gain some familiarity with Java)
-* An advanced java package (which you should consider trying sometime after week 2)
-* A coding challenges package (which should be worked on continuously throughout the training)
+This repository is intended to help you learn some topics of our core language (java). This style of repo grew from my desire for you all to improve at your own pace and skill level. It's fine to chapters if they feel entirely trivial, but you should not skip to the next chapter if you don't know how to complete a section. Sections are ordered for your convenience. I recommend always working on the coding challenges last.
 
 Every section will contain a readme on how to approach the problems within.
 
@@ -24,11 +17,10 @@ In order to run the tests, you should be able to run them in intellij in the sam
 ## Approximate deadlines
 Although I aim to make learning personalized to all skill levels, there are also minimum expectations to be met in your ability to complete the contained challenges.
 
-1) if you are in a 12-week cohort, basics and level 0 challenges should be **completed within the first week, ie, by Friday of week 1.** This is a hard deadline.
-2) Core should be completable by week 2 of both 10-week and 12-week cohorts.
-3) Level 1 challenges and FileIO-easy should be completable by the end of your first project.
-4) Level 2 challenges and FileIO-hard should be completable by the end of your second project.
-5) Level 3 challenges and DSA-easy should be completable by the end of the training.
+* If you are in a 12 week-cohort, Chapters 1 and 2 MUST be completed by Friday week 1.
+* Chapter 3 should be completed by the end of the Java section (week 2 of 12 week cohort, week 1 of 10 week.)
+* Chapter 4 should be completed by the end of your first project.
+* Chapter 5 should be completed by the end of the training.
 
 If you are able to proceed at a faster pace, please do so, and I also recommend continuing incomplete content into Staging.
 
