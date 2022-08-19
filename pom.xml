@@ -3,19 +3,24 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
-    <groupId>org.example</groupId>
+<!--    project metadata-->
+    <groupId>org.revature</groupId>
     <artifactId>Challenges</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+<!--    maven allows us to change the version of java we'd like to use -->
 
     <properties>
         <maven.compiler.source>15</maven.compiler.source>
         <maven.compiler.target>15</maven.compiler.target>
     </properties>
 
-
+<!--    maven allows us to use external dependencies from mvn repository.
+        meaning, we're downloading java classes that other developers have written and can
+        use them in our projects!-->
     <dependencies>
         <dependency>
+<!--            junit, our framework for writing unit tests.-->
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.13.2</version>
