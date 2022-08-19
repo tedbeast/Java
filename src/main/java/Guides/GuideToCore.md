@@ -4,7 +4,7 @@ I find that even people with familiarity with Java (typically from prior classes
 # Research process
 
 ## Search engines
-For this section, research is both encouraged and necessary. A developer need not remember every single factoid she uses to develop software - certainly not Java developers, anyways - rather, a developer is able to conduct research, find information quickly, and be able to justify their decisions based on found knowledge.
+For these problems, research is both encouraged and necessary. A developer need not remember every single factoid she uses to develop software - certainly not Java developers, anyways - rather, a developer is able to conduct research, find information quickly, and be able to justify their decisions based on found knowledge.
 
 How do we conduct research?
 
@@ -23,8 +23,6 @@ Knowing how to interpret documentation will become particularly useful when we s
 ## Intellisense
 
 You may notice that Intellij comes packaged with handly autocomplete and suggested action tooltips. This isn't this end of it, however: if you hold Ctrl on your keyboard and click on a class name or method, you can navigate to that class or method and potentially see Java's own implementation of classes! I recommend trying this with Strings or Collections.
-
-No. of questions: 45
 
 All the best
 

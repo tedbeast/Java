@@ -1,18 +1,13 @@
 # Core Language Repo
 Hello!
 
-This repository is intended to help you learn some topics of our core language (java). This style of repo grew from my desire for you all to improve at your own pace and skill level. You should be able to complete the problems of the Basic section before moving on to the Core section, and you should be able to complete the Core section before proceeding to the Challenges or Advanced section. It's fine to skip sections if they are too trivial for you.
+This repository is intended to help you learn some topics of our core language (java). This style of repo grew from attempts for you all to improve at your own pace and skill level. It is organized into chapters, which are groupings of a few core-language concepts and some puzzles which you will solve. I can not control how much you look up on your own, but use good sense: for language-specific details (eg how do strings work?), looking up info is obviously encouraged. For logic puzzles (eg how do I reverse a string?), you have much more to gain from taking the time to think through the problems yourself.
 
-The repo contains:
-* A programming basics package (if needed)
-* A core language package (which should be completed week 1-2)
-* A fileIO package (which you should try after you gain some familiarity with Java)
-* An advanced java package (which you should consider trying sometime after week 2)
-* A coding challenges package (which should be worked on continuously throughout the training)
+If you haven't had much experience beforehand, you may find that programming is a tricky thing in that reading articles and watching videos doesn't guarantee that you'll get any better at programming (especially with coding challenges). For this reason, the repo is structured such that everyone has a place where they can start with problems they understand, and everyone should have enough content to cover for them to proceed at a steady pace.
 
-Every section will contain a readme on how to approach the problems within.
+Every section will contain a brief readme explaining the problems contained.
 
-## Test driven develpment
+## Test driven development
 The repository is structured around TDD (test-driven-development), which is a real practice that companies follow, if they have the resources to spare. This means that we write the tests for our code **before** the implementations. On a difficult project, this leads to a smooth development process where progress is easily measured, which is great for businesses.
 
 In order to write tests, here I have written junit tests for you in a test class in each challenge's package. **You can and should read the tests, but you should not modify the tests in any way.**
@@ -22,13 +17,12 @@ The structure of a junit test class is as follows: every one of the test classes
 In order to run the tests, you should be able to run them in intellij in the same way that you run any main class (the 'magic green button' to the left of your code). Mind that, in intellij, the 'magic green button' at the top right of the class reflects the last-run class, not the class you are currently looking at. You could also use maven command mvn:test, but that will run all the test cases which will take too long.
 
 ## Approximate deadlines
-Although I aim to make learning personalized to all skill levels, there are also minimum expectations to be met in your ability to complete the contained challenges.
+I am still working through accurately organizing the repo by difficulty. In order for everyone to keep pace with learning programming fundamentals, here are the minimum requirements for your abilities week-by-week:
 
-1) if you are in a 12-week cohort, basics and level 0 challenges should be **completed within the first week, ie, by Friday of week 1.** This is a hard deadline.
-2) Core should be completable by week 2 of both 10-week and 12-week cohorts.
-3) Level 1 challenges and FileIO-easy should be completable by the end of your first project.
-4) Level 2 challenges and FileIO-hard should be completable by the end of your second project.
-5) Level 3 challenges and DSA-easy should be completable by the end of the training.
+1) if you are in a 12-week cohort, chapters 1 and 2 should be completed by Friday of week 1. This is a hard deadline. 12-week cohorts should also complete chapter 3 by end of week 2.
+2) if you are in a 10-week cohort, chapter 3 should be completed by Friday of week 1.
+3) chapter 4 should be completed by the end of your first project.
+4) chapter 5 should be completed by the end of the training.
 
 If you are able to proceed at a faster pace, please do so, and I also recommend continuing incomplete content into Staging.
 
