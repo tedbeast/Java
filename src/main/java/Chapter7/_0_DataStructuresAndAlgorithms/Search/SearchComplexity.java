@@ -1,5 +1,9 @@
 package Chapter7._0_DataStructuresAndAlgorithms.Search;
 /*
+I haven't yet finished writing this challenge.
+TODO: finish challenge
+ */
+/*
 We are used to searching for items in a list by traversing the list and checking each value.
 While this is true in an unsorted list, a sorted list is a different case:
 how do we search for a word in a dictionary, for instance? do we look at every word?

@@ -1,4 +1,4 @@
-package Chapter3._5_Challenges.Return1ToN;
+package Chapter3._4_Challenges.Return1ToN;
 /*
 return a string of all numbers between 1 to N.'
 it should be formatted something like this:

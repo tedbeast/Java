@@ -1,7 +1,10 @@
 package Chapter6._2_Streams.ForEach;
 
 import java.util.List;
-
+/*
+I haven't yet finished writing this challenge.
+TODO: finish challenge
+ */
 public class ForEachSum {
     /*
     Use a stream and the forEach method to obtain a sum of all items in a list.

@@ -1,4 +1,4 @@
-package Chapter3._5_Challenges.DoesNotContain;
+package Chapter3._4_Challenges.DoesNotContain;
 
 public class DoesNotContain {
     public boolean arrayDoesNotContain(int[] arr, int target){

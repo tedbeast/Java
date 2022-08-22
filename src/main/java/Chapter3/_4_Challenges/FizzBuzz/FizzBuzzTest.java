@@ -1,4 +1,4 @@
-package Chapter3._5_Challenges.FizzBuzz;
+package Chapter3._4_Challenges.FizzBuzz;
 
 ;
 import org.junit.Assert;

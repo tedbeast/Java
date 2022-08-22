@@ -1,4 +1,4 @@
-package Chapter3._5_Challenges.ReturnArrayContents;
+package Chapter3._4_Challenges.ReturnArrayContents;
 
 import org.junit.Assert;
 import org.junit.Test;

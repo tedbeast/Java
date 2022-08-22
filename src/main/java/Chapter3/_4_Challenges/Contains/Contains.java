@@ -1,4 +1,4 @@
-package Chapter3._5_Challenges.Contains;
+package Chapter3._4_Challenges.Contains;
 /*
 true if array contains a value. false otherwise
  */

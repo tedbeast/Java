@@ -1,4 +1,4 @@
-package Chapter3._5_Challenges.ReturnArrayContents;
+package Chapter3._4_Challenges.ReturnArrayContents;
 /*
 return a string with the array's contents.
 The string should be formatted with commas and spaces like this:

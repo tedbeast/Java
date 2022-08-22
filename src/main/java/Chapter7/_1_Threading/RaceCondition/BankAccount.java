@@ -1,5 +1,8 @@
 package Chapter7._1_Threading.RaceCondition;
-
+/*
+I haven't yet finished writing this challenge.
+TODO: finish challenge
+ */
 public class BankAccount {
     /*
     DO NOT remove the Thread.sleep methods in this class! They are essential for illustrating an important point, since

@@ -1,4 +1,4 @@
-package Chapter3._4_Exceptions.ExceptionThrow;
+package Chapter3._3_Exceptions.ExceptionThrow;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.BeforeClass;

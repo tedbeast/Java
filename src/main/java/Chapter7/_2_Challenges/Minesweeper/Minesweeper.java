@@ -1,7 +1,7 @@
-package Chapter7._1_Threading.RaceCondition;
+package Chapter7._2_Challenges.Minesweeper;
 /*
 I haven't yet finished writing this challenge.
 TODO: finish challenge
  */
-public class TransactionRunner {
+public class Minesweeper {
 }

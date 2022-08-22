@@ -1,4 +1,4 @@
-package Chapter3._5_Challenges.Return1ToN;
+package Chapter3._4_Challenges.Return1ToN;
 
 import org.junit.Assert;
 import org.junit.BeforeClass;
