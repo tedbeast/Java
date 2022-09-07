@@ -6,6 +6,11 @@ You can use the test results to check for differences.
  */
 public class HelloWorld {
     public String sayHello(){
-        return "";
+        return "Hello, world!";
     }
 }
+/*
+User Story
+A _____ should be able to _____ so that _____ can _____
+A user should be able to create posts so that other users can view them
+ */

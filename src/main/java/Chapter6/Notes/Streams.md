@@ -1,0 +1,1 @@
+If you've been looking up solutions to some of these coding challenges, you may have encountered solutions that seem to be written in a single line without any loops using Streams. Streams allow us to apply a function to every element in an array or collection individually.

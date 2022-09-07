@@ -3,9 +3,11 @@ package Chapter2._2_Arrays;
 public class ArrayBasics {
 
     public int getLengthOfArray(int[] arr){
-        return 0;
+        int l = arr.length;
+        return l;
     }
     public int getNthElementOfArray(int[] arr, int n){
+//        arr[n]
         return 0;
     }
     public int[] setNthElementOfArray(int[] arr, int n, int val){

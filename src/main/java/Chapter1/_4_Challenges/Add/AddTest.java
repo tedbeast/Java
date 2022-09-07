@@ -16,12 +16,16 @@ public class AddTest {
     public void addTest1(){
         int input1 = 1;
         int input2 = 2;
-        Assert.assertEquals(a.addNumbers(input1, input2), 3);
+        int expected = 3;
+        int actual = a.addNumbers(input1, input2);
+        Assert.assertEquals(expected, actual);
     }
     @Test
     public void addTest2(){
         int input1 = 3;
         int input2 = 4;
-        Assert.assertEquals(a.addNumbers(input1, input2), 7);
+        int expected = 7;
+        int actual = a.addNumbers(input1, input2);
+        Assert.assertEquals(expected, actual);
     }
 }

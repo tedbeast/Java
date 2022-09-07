@@ -9,14 +9,14 @@ public class ReturnArrayContentsTest {
     public void arrayStringTest1(){
         int[] input = {1,2,3,4,5};
         String expected = "1, 2, 3, 4, 5";
-        String actual = rac.arrayToString().trim();
+        String actual = rac.arrayToString(input).trim();
         Assert.assertEquals(expected, actual);
     }
     @Test
     public void arrayStringTest2(){
         int[] input = {9,8,7};
         String expected = "9, 8, 7";
-        String actual = rac.arrayToString().trim();
+        String actual = rac.arrayToString(input).trim();
         Assert.assertEquals(expected, actual);
     }
 }

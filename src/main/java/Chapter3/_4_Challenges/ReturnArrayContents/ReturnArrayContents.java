@@ -8,7 +8,7 @@ the last item should not have a comma.
 Spaces at the end of the string will not affect test results.
  */
 public class ReturnArrayContents {
-    public String arrayToString(){
+    public String arrayToString(int[] nums){
         return "";
     }
 }

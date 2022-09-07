@@ -1,6 +1,6 @@
 package Chapter1._0_Start;
 /*
-This is a CLASS. A CLASS is a blueprint for generating an OBJECT. Classes contain states (variables) and
+This is a CLASS. A CLASS is a blueprint for generating an OBJECT. Objects contain states (variables) and
 behavior (methods).
 
 The public keyword here is one of the access modifiers. The access modifier affects if the class, variable,

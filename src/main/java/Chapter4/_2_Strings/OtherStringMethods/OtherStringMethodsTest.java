@@ -20,11 +20,11 @@ public class OtherStringMethodsTest {
     }
     @Test
     public void compareToTest1(){
-        Assert.assertTrue(osm.compareLexigraphically("banana", "apple") > 1);
+        Assert.assertTrue(osm.compareLexigraphically("banana", "apple") > 0);
     }
     @Test
     public void compareToTest2(){
-        Assert.assertTrue(osm.compareLexigraphically("monkey", "penguin") < 1);
+        Assert.assertTrue(osm.compareLexigraphically("monkey", "penguin") < 0);
     }
     @Test
     public void compareToTest3(){
@@ -40,7 +40,7 @@ public class OtherStringMethodsTest {
     @Test
     public void splitStringTest2(){
         String input = "src.main.java";
-        String splitAround = ".";
+        String splitAround = "\\.";
         String[] expected = {"src", "main", "java"};
         Assert.assertArrayEquals(osm.splitStringIntoMultipleStrings(input, splitAround), expected);
     }

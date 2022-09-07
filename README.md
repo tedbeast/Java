@@ -7,6 +7,9 @@ If you haven't had much experience beforehand, you may find that programming is 
 
 Every section will contain a brief readme explaining the problems contained.
 
+## Git
+If you are new to Git, you will have to become accustomed to the basics in order to use this repo. Please install gitbash and use, in your command line, the command `git clone url`, replacing 'url' with the url of this repository. This will generate, in whatever current directory of your command line was, a new folder named Java which will contain all the contained files together with an already set-up git local repository. After this, you can open that folder in your IDE of choice (Intellij, Eclipse, VSCode, etc).
+
 ## Test driven development
 The repository is structured around TDD (test-driven-development), which is a real practice that companies follow, if they have the resources to spare. This means that we write the tests for our code **before** the implementations. On a difficult project, this leads to a smooth development process where progress is easily measured, which is great for businesses.
 
@@ -20,7 +23,7 @@ In order to run the tests, you should be able to run them in intellij in the sam
 I am still working through accurately organizing the repo by difficulty. In order for everyone to keep pace with learning programming fundamentals, here are the minimum requirements for your abilities week-by-week:
 
 1) if you are in a 12-week cohort, chapters 1 and 2 should be completed by Friday of week 1. This is a hard deadline. 12-week cohorts should also complete chapter 3 by end of week 2.
-2) if you are in a 10-week cohort, chapter 3 should be completed by Friday of week 1.
+2) if you are in a 10-week cohort, chapters 1-3 should be completed by Friday of week 1 (you can skip chapters if you like)
 3) chapter 4 should be completed by the end of your first project.
 4) chapter 5 should be completed by the end of the training.
 

@@ -1,5 +1,6 @@
 package Chapter1._4_Challenges._Parrot;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /*
@@ -12,12 +13,13 @@ public class ParrotTest {
         String input = "hello";
         String expected = "hello";
         String actual = p.copy(input);
+        Assert.assertEquals(expected, actual);
     }
     @Test
     public void parrotTestPolly(){
         String input = "polly";
         String expected = "polly";
         String actual = p.copy(input);
+        Assert.assertEquals(expected, actual);
     }
-
 }
