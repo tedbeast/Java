@@ -8,7 +8,7 @@ public class PigLatinSentenceTest {
     @Test
     public void pigLatinSentence1(){
         String input = "apple banana pear";
-        String expected = "ppleay ananabay earpay";
+        String expected = "ppleaay ananabay earpay";
         String actual = pls.returnPigLatinSentence(input);
         Assert.assertEquals(expected, actual);
     }

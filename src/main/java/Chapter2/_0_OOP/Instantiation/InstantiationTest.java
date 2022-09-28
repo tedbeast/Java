@@ -5,9 +5,9 @@ import org.junit.Test;
 
 public class InstantiationTest {
 //    lol
-    Instantiation i = new Instantiation();
+    InstantiationExample i = new InstantiationExample();
     @Test
     public void reallyStupidTest(){
-        Assert.assertNotNull(i.instantiate());
+        Assert.assertNotNull(i.instantiateANewObject());
     }
 }

@@ -1,8 +1,9 @@
 package Chapter4._3_FileIO.WriteListIntoFile;
 
-/*
-I haven't yet finished writing this challenge.
-TODO: finish challenge
- */
+import java.util.List;
+
 public class WriteListIntoFile {
+    public void write(String filepath, List<String> items){
+
+    }
 }

@@ -1,7 +1,7 @@
 package Chapter1._3_WhileLoop;
 
 public class WhileLoop {
-    /*
+    /**
     A while loop uses a conditional statement (within parentheses) and runs the code {within curly braces}
     so long as the conditional is true.
     Usually while loops are used for I/O like waiting for input from the user, or waiting for data from the web,
@@ -20,7 +20,7 @@ public class WhileLoop {
         (ie as i goes from 0 -> 1 -> 2 -> 3 -> 4 -> 5 sum goes from 0 -> 1 -> 3 -> 6 -> 10 -> 15)
     You can consult existing examples to learn the syntax for a while loop. If you program doesn't stop running,
         that means the conditional you defined is never broken as the code executes.
-     */
+     **/
     public int whileExample(int end){
         int sum = 0;
         int i = 0;

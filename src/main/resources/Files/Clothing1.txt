@@ -1,0 +1,4 @@
+tshirt $19.99
+socks $3.99
+hat $15.99
+coat $49.99

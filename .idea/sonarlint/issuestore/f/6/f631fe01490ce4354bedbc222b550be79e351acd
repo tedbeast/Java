@@ -1,0 +1,14 @@
+
+‰
+java:S1192"gDefine a constant instead of duplicating this literal "src/main/resources/Files/BlankFile.txt" 3 times.(àæßÿÿÿÿÿ8ÕÉ‰î¶0
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‡¬€Î
+g
+java:S2095 "EUse try-with-resources or close this "Scanner" in a "finally" clause.(Á§­æûÿÿÿÿ8ÛÉ‰î¶0
+`
+java:S20953"EUse try-with-resources or close this "Scanner" in a "finally" clause.(Á§­æûÿÿÿÿ
+U	java:S899";Do something with the "boolean" value returned by "delete".(é‘‚©úÿÿÿÿ
+i
+java:S4042"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(é‘‚©úÿÿÿÿ
+\	java:S899"BDo something with the "boolean" value returned by "createNewFile".(ôü¿Ÿÿÿÿÿÿ
+A
+java:S5960""+Remove this assertion from production code.(Ï¹ğÛ

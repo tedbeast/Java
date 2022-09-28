@@ -1,0 +1,10 @@
+
+k
+java:S1192"NDefine a constant instead of duplicating this literal " milliseconds" 4 times.(Ú…—®8±¿µ0
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Çåšÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ú…—®
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¹ÖèÓ
+U	java:S106)"9Replace this use of System.out or System.err by a logger.(Ú…—®8©±¿µ0
+U	java:S106*"9Replace this use of System.out or System.err by a logger.(¹ÖèÓ8©±¿µ0
+A
+java:S5960"+Remove this assertion from production code.(ğºÅß
