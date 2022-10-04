@@ -7,6 +7,10 @@ public class HardcodedLoginTest {
 
     HardcodedLogin hl = new HardcodedLogin();
 
+    /**
+     * If a user tries to login with username "admin" and password "qwerty", login should return "true"
+     * (permit the login)
+     */
     @Test
     public void loginTest1(){
         String user = "admin";
@@ -15,6 +19,10 @@ public class HardcodedLoginTest {
         boolean actual = hl.login(user,password);
         Assert.assertEquals(expected, actual);
     }
+    /**
+     * If a user tries to login with username "admin" and password "password", login should return "false"
+     * (do not permit the login)
+     */
     @Test
     public void loginTest2(){
         String user = "admin";
@@ -23,6 +31,10 @@ public class HardcodedLoginTest {
         boolean actual = hl.login(user,password);
         Assert.assertEquals(expected, actual);
     }
+    /**
+     * If a user tries to login with username "admin" and password "123456", login should return "false"
+     * (do not permit the login)
+     */
     @Test
     public void loginTest3(){
         String user = "admin";
@@ -31,6 +43,11 @@ public class HardcodedLoginTest {
         boolean actual = hl.login(user,password);
         Assert.assertEquals(expected, actual);
     }
+
+    /**
+     * If a user tries to login with username "user" and password "password", login should return "true"
+     * (permit the login)
+     */
     @Test
     public void loginTest4(){
         String user = "user";
@@ -39,6 +56,10 @@ public class HardcodedLoginTest {
         boolean actual = hl.login(user,password);
         Assert.assertEquals(expected, actual);
     }
+    /**
+     * If a user tries to login with username "user" and password "qwerty", login should return "false"
+     * (do not permit the login)
+     */
     @Test
     public void loginTest5(){
         String user = "user";
@@ -47,6 +68,10 @@ public class HardcodedLoginTest {
         boolean actual = hl.login(user,password);
         Assert.assertEquals(expected, actual);
     }
+    /**
+     * If a user tries to login with username "user" and password "123456", login should return "false"
+     * (do not permit the login)
+     */
     @Test
     public void loginTest6(){
         String user = "user";
@@ -55,6 +80,10 @@ public class HardcodedLoginTest {
         boolean actual = hl.login(user,password);
         Assert.assertEquals(expected, actual);
     }
+    /**
+     * If a user tries to login with username "guest" and password "password", login should return "false"
+     * (do not permit the login)
+     */
     @Test
     public void loginTest7(){
         String user = "guest";

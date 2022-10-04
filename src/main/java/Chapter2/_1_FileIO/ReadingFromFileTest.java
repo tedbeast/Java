@@ -7,6 +7,10 @@ import java.io.FileNotFoundException;
 
 public class ReadingFromFileTest {
     ReadingFromFile rff = new ReadingFromFile();
+
+    /**
+     * Read from HelloFile1.txt and verify that it does contain HelloWorld.
+     */
     @Test
     public void readTest1(){
         String filepath = "src/main/resources/Files/HelloFile1.txt";

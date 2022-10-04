@@ -12,103 +12,155 @@ public class ComparatorsTest {
     public static void setUp(){
         c = new Comparators();
     }
+
+    /**
+     * If isEqual is passed two numbers that are equal, isEqual should return true.
+     */
     @Test
     public void isEqualTest1(){
-        int input1 = 1;
-        int input2 = 1;
-        boolean actual = c.isEqual(input1, input2);
+        int a = 1;
+        int b = 1;
+        boolean actual = c.isEqual(a, b);
         Assert.assertTrue(actual);
     }
+
+    /**
+     * If isEqual is passed two numbers that are not equal, isEqual should return false.
+     */
     @Test
     public void isEqualTest2(){
-        int input1 = 1;
-        int input2 = 2;
-        boolean actual = c.isEqual(input1, input2);
-        Assert.assertFalse(actual);
-    }
-    @Test
-    public void greaterThanTest1(){
-        int input1 = 2;
-        int input2 = 1;
-        boolean actual = c.greaterThan(input1, input2);
-        Assert.assertTrue(actual);
-    }
-    @Test
-    public void greaterThanTest2(){
-        int input1 = 1;
-        int input2 = 2;
-        boolean actual = c.greaterThan(input1, input2);
+        int a = 1;
+        int b = 2;
+        boolean actual = c.isEqual(a, b);
         Assert.assertFalse(actual);
     }
 
+    /**
+     * If greaterThan is passed two numbers where a is greater than b, greaterThan should return true.
+     */
+    @Test
+    public void greaterThanTest1(){
+        int a = 2;
+        int b = 1;
+        boolean actual = c.greaterThan(a, b);
+        Assert.assertTrue(actual);
+    }
+    /**
+     * If greaterThan is passed two numbers where a is less than b, greaterThan should return false.
+     */
+    @Test
+    public void greaterThanTest2(){
+        int a = 1;
+        int b = 2;
+        boolean actual = c.greaterThan(a, b);
+        Assert.assertFalse(actual);
+    }
+
+    /**
+     * If greaterThan is passed two numbers where a is equal to b, greaterThan should return false.
+     */
     @Test
     public void greaterThanTest3(){
-        int input1 = 2;
-        int input2 = 2;
-        boolean actual = c.greaterThan(input1, input2);
+        int a = 2;
+        int b = 2;
+        boolean actual = c.greaterThan(a, b);
         Assert.assertFalse(actual);
     }
+
+    /**
+     * If lessThan is passed two numbers where a is less than b, greaterThan should return true.
+     */
     @Test
     public void lessThanTest1(){
-        int input1 = 1;
-        int input2 = 2;
-        boolean actual = c.lessThan(input1, input2);
+        int a = 1;
+        int b = 2;
+        boolean actual = c.lessThan(a, b);
         Assert.assertTrue(actual);
     }
+    /**
+     * If lessThan is passed two numbers where a is equal to b, greaterThan should return false.
+     */
     @Test
     public void lessThanTest2(){
-        int input1 = 2;
-        int input2 = 2;
-        boolean actual = c.lessThan(input1, input2);
+        int a = 2;
+        int b = 2;
+        boolean actual = c.lessThan(a, b);
         Assert.assertFalse(actual);
     }
+    /**
+     * If lessThan is passed two numbers where a is greater than b, greaterThan should return false.
+     */
     @Test
     public void lessThanTest3(){
-        int input1 = 2;
-        int input2 = 1;
-        boolean actual = c.lessThan(input1, input2);
+        int a = 2;
+        int b = 1;
+        boolean actual = c.lessThan(a, b);
         Assert.assertFalse(actual);
     }
+    /**
+     * If greaterThanOrEqualTo is passed two numbers where a is greater than b, then greaterThanOrEqualTo
+     * should return true.
+     */
     @Test
     public void greaterThanOrEqualToTest1(){
-        int input1 = 2;
-        int input2 = 1;
-        boolean actual = c.greaterThanOrEqualTo(input1, input2);
+        int a = 2;
+        int b = 1;
+        boolean actual = c.greaterThanOrEqualTo(a, b);
         Assert.assertTrue(actual);
     }
+    /**
+     * If greaterThanOrEqualTo is passed two numbers where a is equal to b, then greaterThanOrEqualTo
+     * should return true.
+     */
     @Test
     public void greaterThanOrEqualToTest2(){
-        int input1 = 2;
-        int input2 = 2;
-        boolean actual = c.greaterThanOrEqualTo(input1, input2);
+        int a = 2;
+        int b = 2;
+        boolean actual = c.greaterThanOrEqualTo(a, b);
         Assert.assertTrue(actual);
     }
+    /**
+     * If greaterThanOrEqualTo is passed two numbers where a is less than b, then greaterThanOrEqualTo
+     * should return false.
+     */
     @Test
     public void greaterThanOrEqualToTest3(){
-        int input1 = 3;
-        int input2 = 4;
-        boolean actual = c.greaterThanOrEqualTo(input1, input2);
+        int a = 3;
+        int b = 4;
+        boolean actual = c.greaterThanOrEqualTo(a, b);
         Assert.assertFalse(actual);
     }
+    /**
+     * If lessThanOrEqualTo is passed two numbers where a is less than b, then lessThanOrEqualTo
+     * should return true.
+     */
     @Test
     public void lessThanOrEqualToTest1(){
-        int input1 = 1;
-        int input2 = 2;
-        boolean actual = c.lessThanOrEqualTo(input1, input2);
+        int a = 1;
+        int b = 2;
+        boolean actual = c.lessThanOrEqualTo(a, b);
         Assert.assertTrue(actual);
     }
+    /**
+     * If lessThanOrEqualTo is passed two numbers where a is equal to b, then lessThanOrEqualTo
+     * should return true.
+     */
     @Test
     public void lessThanOrEqualToTest2(){
-        int input1 = 2;
-        int input2 = 2;
-        boolean actual = c.lessThanOrEqualTo(input1, input2);
+        int a = 2;
+        int b = 2;
+        boolean actual = c.lessThanOrEqualTo(a, b);
         Assert.assertTrue(actual);
     }
+    /**
+     * If lessThanOrEqualTo is passed two numbers where a is greater than b, then lessThanOrEqualTo
+     * should return false.
+     */
     @Test
     public void lessThanOrEqualToTest3(){
-        int input1 = 4;
-        int input2 = 2;
-        boolean actual = c.lessThanOrEqualTo(input1, input2);
+        int a = 4;
+        int b = 2;
+        boolean actual = c.lessThanOrEqualTo(a, b);
         Assert.assertFalse(actual);
     }
 }

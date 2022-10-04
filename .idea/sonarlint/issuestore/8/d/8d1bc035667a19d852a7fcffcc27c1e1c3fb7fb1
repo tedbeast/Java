@@ -1,0 +1,6 @@
+
+W
+java:S4973"<Strings and Boxed types should be compared using "equals()".(ûà÷ªıÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Çåšÿÿÿÿÿ
+G
+java:S1172",Remove this unused method parameter "words".(ºÄğŸûÿÿÿÿ

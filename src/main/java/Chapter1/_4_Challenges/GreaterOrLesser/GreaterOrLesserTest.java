@@ -12,6 +12,10 @@ public class GreaterOrLesserTest {
     public static void setUp(){
         gol = new GreaterOrLesser();
     }
+
+    /**
+     * If a is equal to b, gol.decide should return "Equal".
+     */
     @Test
     public void greaterOrLesserTest1(){
         int inputA = 0;
@@ -20,6 +24,10 @@ public class GreaterOrLesserTest {
         String actual = gol.decide(inputA, inputB);
         Assert.assertEquals(expected, actual);
     }
+
+    /**
+     * If a is greater than b, gol.decide should return "Greater".
+     */
     @Test
     public void greaterOrLesserTest2(){
         int inputA = 1;
@@ -28,6 +36,10 @@ public class GreaterOrLesserTest {
         String actual = gol.decide(inputA, inputB);
         Assert.assertEquals(expected, actual);
     }
+
+    /**
+     * If a is less than b, gol.decide should return "Lesser".
+     */
     @Test
     public void greaterOrLesserTest3(){
         int inputA = 0;

@@ -8,6 +8,10 @@ This challenge's method will receive a String parameter named text. The method s
  */
 public class ParrotTest {
     Parrot p = new Parrot();
+
+    /**
+     * If p.copy is passed in "hello", it should return "hello".
+     */
     @Test
     public void parrotTestHello(){
         String input = "hello";
@@ -15,6 +19,9 @@ public class ParrotTest {
         String actual = p.copy(input);
         Assert.assertEquals(expected, actual);
     }
+    /**
+     * If p.copy is passed in "polly", it should return "polly".
+     */
     @Test
     public void parrotTestPolly(){
         String input = "polly";

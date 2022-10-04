@@ -1,0 +1,8 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(šîî»
+Q
+java:S1172"/Remove this unused method parameter "filepath".(Ò¡Ã³ûÿÿÿÿ8Á„³ï¶0
+F
+java:S1128")Remove this unused import 'java.io.File'.(†Ð¥Å8Á„³ï¶0
+P
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8Â„³ï¶0
