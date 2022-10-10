@@ -18,14 +18,30 @@ public class SetExercise {
     public Set<Integer> createSet(){
         return null;
     }
+
+    /**
+     * @param set the set that we will be manipulating.
+     * @return the size of set. (number of values)
+     */
     public int getSize(Set<Integer> set){
-//        return the size of set
         return 0;
     }
+
+    /**
+     * @param set the set that we will be manipulating.
+     * @param item item which we will be adding to set.
+     * @return nothing, pass by reference will cause changes to the list object to be reflected across the program.
+     */
     public Set<Integer> addUniqueItem(Set<Integer> set, int item){
 //        add item to set before returning
         return set;
     }
+
+    /**
+     * @param set the set that we will be manipulating.
+     * @param item item which we will be removing from set.
+     * @return nothing, pass by reference will cause changes to the list object to be reflected across the program.
+     */
     public Set<Integer> removeItem(Set<Integer> set, int item){
 //        remove item before returning
         return set;

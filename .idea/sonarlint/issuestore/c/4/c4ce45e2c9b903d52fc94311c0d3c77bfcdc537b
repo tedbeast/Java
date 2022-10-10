@@ -1,0 +1,10 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Œ¡µÍüÿÿÿÿ
+`
+java:S2095&"EUse try-with-resources or close this "Scanner" in a "finally" clause.(Á§­æûÿÿÿÿ
+U	java:S899";Do something with the "boolean" value returned by "delete".(é‘‚©úÿÿÿÿ
+i
+java:S4042"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(é‘‚©úÿÿÿÿ
+\	java:S899"BDo something with the "boolean" value returned by "createNewFile".(ôü¿Ÿÿÿÿÿÿ
+F
+java:S5960("+Remove this assertion from production code.( ýç¶øÿÿÿÿ

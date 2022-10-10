@@ -1,7 +1,8 @@
 package Chapter4._0_OOP.Overriding;
-/*
-No need to change anything in this class, the tests will check that it is unchanged. Your modifications should be
-in the Shiba class.
+
+/**
+ * This Dog class represents the behavior of a generic dog that can make a Woof noise. There is no need to change
+ * anything in this class, and the test cases rely on the current implementation. Go see the Shiba class.
  */
 public class Dog {
     public Dog(){

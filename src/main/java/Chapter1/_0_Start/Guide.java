@@ -1,13 +1,14 @@
 package Chapter1._0_Start;
-/**
-This is a CLASS. A CLASS is a blueprint for generating an OBJECT. Objects contain states (variables) and
-behavior (methods).
 
-The public keyword here is one of the access modifiers. The access modifier affects if the class, variable,
-or method is visible outside of this class: for instance, if we used the private keyword rather than public,
-our testing class wouldn't have access, and we wouldn't be able to instantiate a Guide object or call the
-guideMethod method.
-**/
+/**
+ * This is a CLASS. A CLASS is a blueprint for generating an OBJECT. Objects contain states (variables) and
+ * behavior (methods).
+ *
+ * The public keyword here is one of the access modifiers. The access modifier affects if the class, variable,
+ * or method is visible outside of this class: for instance, if we used the private keyword rather than public,
+ * our testing class wouldn't have access, and we wouldn't be able to instantiate a Guide object or call the
+ * guideMethod method.
+ */
 public class Guide {
     /**
      *

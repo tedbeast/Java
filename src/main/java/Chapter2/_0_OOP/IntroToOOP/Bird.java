@@ -1,14 +1,14 @@
 package Chapter2._0_OOP.IntroToOOP;
 
 /**
- * What would like objects to be able to
+ * What would like objects to be able to do
  *      a) contain some data
  *      and
  *      b) change its behavior based off of the data that it individually contains.
  * Let's say we're working on a birdwatching app.
  * Using OOP, we could maintain many birds which individually contain their own
- * age, and can generate their own sound. This concept of owning data is encapsulation: oftentimes to
- * encapsulate something is reductively defined as "having access modifiers" but this is a very shallow understanding.
+ * age, and can generate their own sound. This concept of an object controlling its own data can be
+ * referred to as encapsulation.
  *
  * Let's say that an individual bird returns "Tweet" if ageMonths is less than 3 and "Chirp" if ageMonths is
  * greater than or equal to 3.

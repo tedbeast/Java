@@ -1,0 +1,8 @@
+
+_
+java:S1192"IDefine a constant instead of duplicating this literal "password" 3 times.(ÓúóÈ
+a
+java:S1192"FDefine a constant instead of duplicating this literal "admin" 3 times.(…ù”¦ÿÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¢»¹øÿÿÿÿ
+A
+java:S5960"+Remove this assertion from production code.(ğºÅß

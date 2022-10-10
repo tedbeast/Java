@@ -1,0 +1,20 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ö£½êûÿÿÿÿ
+8
+java:S2189""Add an end condition to this loop.(ÈÇÑ
+M
+java:S2589"7Remove this expression which always evaluates to "true"(ÈÇÑ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¼›¤Ö
+S	java:S106"9Replace this use of System.out or System.err by a logger.(È‡äíÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(š‰µ®
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‚ì©’ûÿÿÿÿ
+m	java:S128."LEnd this switch case with an unconditional break, return or throw statement.(‰ÆÄÎşÿÿÿÿ8Õƒ¦ò»0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(®¿ş÷ùÿÿÿÿ8§şò»0
+Z	java:S106""9Replace this use of System.out or System.err by a logger.(¨Ü»›ıÿÿÿÿ8¨şò»0
+Z	java:S106%"9Replace this use of System.out or System.err by a logger.(Ëıñ¶üÿÿÿÿ8ş›¤ò»0
+Z	java:S106)"9Replace this use of System.out or System.err by a logger.(Ğ‰õŠùÿÿÿÿ8Öƒ¦ò»0
+Z	java:S106+"9Replace this use of System.out or System.err by a logger.(íÀëüûÿÿÿÿ8îñ§ò»0
+Z	java:S1060"9Replace this use of System.out or System.err by a logger.(ôãıƒùÿÿÿÿ8îñ§ò»0
+U	java:S1062"9Replace this use of System.out or System.err by a logger.(ã“»Å8¿•îò»0
+I
+java:S1128"-Remove this unused import 'org.junit.Assert'.(­ŞL8¿•îò»0

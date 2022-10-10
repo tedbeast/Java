@@ -5,13 +5,11 @@ This repository is intended to help you learn some topics of our core language (
 
 If you haven't had much experience beforehand, you may find that programming is a tricky thing in that reading articles and watching videos doesn't guarantee that you'll get any better at programming (especially with coding challenges). For this reason, the repo is structured such that everyone has a place where they can start with problems they understand, and everyone should have enough content to cover for them to proceed at a steady pace.
 
-Every section will contain a brief readme explaining the problems contained.
-
 ## Git
-If you are new to Git, you will have to become accustomed to the basics in order to use this repo. Please install gitbash and use, in your command line, the command `git clone url`, replacing 'url' with the url of this repository. This will generate, in whatever current directory of your command line was, a new folder named Java which will contain all the contained files together with an already set-up git local repository. After this, you can open that folder in your IDE of choice (Intellij, Eclipse, VSCode, etc).
+If you are new to Git, you will have to become accustomed to the basics in order to use this repo. Please install gitbash and use, in your command line, the command `git clone url`, replacing 'url' with the url of this repository. This will generate, in whatever current directory of your command line was in, a new folder named Java which will contain all the contained files together with an already set-up git local repository. After this, you can open that folder in your IDE of choice (Intellij, Eclipse, VSCode, etc).
 
 ## Test driven development
-The repository is structured around TDD (test-driven-development), which is a real practice that companies follow, if they have the resources to spare. This means that we write the tests for our code **before** the implementations. On a difficult project, this leads to a smooth development process where progress is easily measured, which is great for businesses.
+The repository is structured around TDD (test-driven-development), which is a real practice that companies follow. This means that we write the tests for our code **before** the implementations. On a difficult project, this leads to a smooth development process where progress is easily measured, which makes it a great business practice.
 
 In order to write tests, here I have written junit tests for you in a test class in each challenge's package. **You can and should read the tests, but you should not modify the tests in any way.**
 
@@ -32,6 +30,9 @@ If you are able to proceed at a faster pace, please do so, and I also recommend 
 ## Take breaks
 
 "Every day we should hear at least one little song, read one good poem, see one exquisite picture, and, if possible, speak a few sensible words." *Johann Wolfgang von Goethe*
+
+## License information
+This repository and the code contained may not be distributed without the express written permission of Theodore Balashov. Present Revature employees are permitted to freely use the contained content for their own enrichment. You may contact Theodore at theodore.balashov@revature.com for inquiries. 
 
 All the best
 

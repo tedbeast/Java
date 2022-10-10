@@ -1,0 +1,8 @@
+
+w
+java:S1104"UMake ageMonths a static final constant or non-public and provide accessors if needed.(ü¨¥«ÿÿÿÿÿ8£êŽžº0
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(­¿Å¼ûÿÿÿÿ
+—
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Œìž¡
+T
+java:S3400""9Remove this method and declare a constant for this value.(Ö§”Óþÿÿÿÿ

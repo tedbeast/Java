@@ -5,7 +5,8 @@ import java.io.FileNotFoundException;
 
 public class ReadingFromFile {
     /**
-     * Read a single line from a file.
+     * Read a single line from a file. You will need to look up how to read a file in Java and interpret the code you
+     * find such that you can write a working method.
      *
      * @param filepath the path, relative to your project folder's location, of the files to be read.
      *                 Files used in testing are provided in the repo under src/main/resources/files.
