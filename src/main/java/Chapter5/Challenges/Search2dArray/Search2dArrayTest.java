@@ -4,6 +4,10 @@ import org.junit.Test;
 
 public class Search2dArrayTest {
     Search2dArray sat = new Search2dArray();
+
+    /**
+     * The 2d array here contains 2, so search should return true.
+     */
     @Test
     public void searchTest1(){
         int[][] input =
@@ -16,6 +20,9 @@ public class Search2dArrayTest {
         boolean expected = true;
         boolean actual = sat.search(input,target);
     }
+    /**
+     * The 2d array here contains 5, so search should return true.
+     */
     @Test
     public void searchTest2(){
         int[][] input =
@@ -28,6 +35,9 @@ public class Search2dArrayTest {
         boolean expected = true;
         boolean actual = sat.search(input,target);
     }
+    /**
+     * The 2d array here contains 8, so search should return true.
+     */
     @Test
     public void searchTest3(){
         int[][] input =
@@ -39,6 +49,9 @@ public class Search2dArrayTest {
         boolean expected = true;
         boolean actual = sat.search(input,target);
     }
+    /**
+     * The 2d array here does not contain 0, so search should return false.
+     */
     @Test
     public void searchTest4(){
         int[][] input =
@@ -50,6 +63,9 @@ public class Search2dArrayTest {
         boolean expected = false;
         boolean actual = sat.search(input,target);
     }
+    /**
+     * The 2d array here does not contain 10, so search should return false.
+     */
     @Test
     public void searchTest5(){
         int[][] input =

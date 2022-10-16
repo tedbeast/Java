@@ -1,9 +1,15 @@
 package Chapter6.Challenges.FilterZeroes;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
 public class FilterZeroes {
+
     public int[] filter(int[] nums){
 //        for every item in a stream (this item being represented by n)
 //        see if this conditional is met: and if so, put it into a new stream
+
         return null;
     }
 }

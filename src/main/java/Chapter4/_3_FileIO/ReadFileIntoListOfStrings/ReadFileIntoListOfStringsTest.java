@@ -7,6 +7,11 @@ import java.util.List;
 
 public class ReadFileIntoListOfStringsTest {
     ReadFileIntoListOfStrings rfilos = new ReadFileIntoListOfStrings();
+
+    /**
+     * "socks $3.99" and "coat $49.99" should both be contained in Clothing1.txt, so the output list should
+     * contain them as well.
+     */
     @Test
     public void readFileListTest1(){
         String input = "src/main/resources/Files/Clothing1.txt";
@@ -17,6 +22,10 @@ public class ReadFileIntoListOfStringsTest {
         Assert.assertTrue(output.contains(target2));
 
     }
+    /**
+     * These two lines of a short story should both be contained in ExactitudeOfScience.txt, so the output list should
+     * contain them as well.
+     */
     @Test
     public void readFileListTest2(){
         String input = "src/main/resources/Files/ExactitudeOfScience.txt";

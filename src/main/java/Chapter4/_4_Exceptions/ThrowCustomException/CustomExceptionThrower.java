@@ -1,7 +1,12 @@
 package Chapter4._4_Exceptions.ThrowCustomException;
 
 public class CustomExceptionThrower {
-//    Throw a custom exception
+
+    /**
+     * This method should throw a CustomException.
+     *
+     * I recommend looking at the test case for a good example of try/catch block usage, as well.
+     */
     public void throwCustomException(){
 
     }

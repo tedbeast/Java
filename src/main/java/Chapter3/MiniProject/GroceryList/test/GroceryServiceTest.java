@@ -1,9 +1,10 @@
 package Chapter3.MiniProject.GroceryList.test;
 
-import Chapter3.MiniProject.GroceryList.main.GroceryMenu;
 import Chapter3.MiniProject.GroceryList.main.GroceryService;
 import org.junit.Assert;
 import org.junit.Test;
+
+import java.util.List;
 
 public class GroceryServiceTest {
     /**
@@ -39,6 +40,30 @@ public class GroceryServiceTest {
         Assert.assertTrue(gs.containsItem("bread"));
         Assert.assertTrue(gs.containsItem("bacon"));
         Assert.assertFalse(gs.containsItem("milk"));
+    }
+
+    @Test
+    public void getAllGroceriesTest1(){
+        GroceryService gs = new GroceryService();
+        gs.addItem("bread");
+        gs.addItem("bacon");
+        List<String> groceryList = gs.getAllGroceries();
+        Assert.assertTrue(groceryList.contains("bread"));
+        Assert.assertTrue(groceryList.contains("bacon"));
+    }
+
+    /**
+     * A GroceryService should not permit the same item to be added twice.
+     */
+    @Test
+    public void addTest3(){
+        GroceryService gs = new GroceryService();
+        gs.addItem("bread");
+        gs.addItem("bread");
+        Assert.assertTrue(gs.containsItem("bread"));
+        List<String> groceryList = gs.getAllGroceries();
+        groceryList.remove(0);
+        Assert.assertFalse(gs.containsItem("bread"));
     }
 
     /**

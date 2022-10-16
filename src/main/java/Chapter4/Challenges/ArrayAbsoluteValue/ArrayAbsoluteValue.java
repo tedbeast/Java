@@ -1,8 +1,13 @@
 package Chapter4.Challenges.ArrayAbsoluteValue;
-/*
-task: return an array of the absolute values of all numbers (distance from zero, eg abs of 4 is 4, abs of -3 is 3)
- */
+
 public class ArrayAbsoluteValue {
+    /**
+     * Given an array of integers, produce an array of integers composed of the absolute values of all the numbers
+     * in nums. Absolute value represents the distance from zero, so negative numbers should become positive and
+     * positive numbers can stay the same.
+     * @param nums an array to be manipulated.
+     * @return the absolute value array of nums.
+     */
     public int[] getArrayAbs(int[] nums){
         return null;
     }

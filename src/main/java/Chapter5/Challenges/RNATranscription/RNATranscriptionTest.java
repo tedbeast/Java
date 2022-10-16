@@ -11,6 +11,10 @@ G becomes C.
  */
 public class RNATranscriptionTest {
     RNATranscription rna = new RNATranscription();
+
+    /**
+     * The RNA form is TACG is AUGC.
+     */
     @Test
     public void transcriptionTest1(){
         String input = "TACG";
@@ -18,6 +22,10 @@ public class RNATranscriptionTest {
         String expected = "AUGC";
         Assert.assertEquals(expected, actual);
     }
+
+    /**
+     * The RNA form of GATTACA is CUAAUGU.
+     */
     @Test
     public void transcriptionTest2(){
         String input = "GATTACA";

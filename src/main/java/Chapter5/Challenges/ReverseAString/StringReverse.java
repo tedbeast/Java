@@ -1,13 +1,16 @@
 package Chapter5.Challenges.ReverseAString;
-/*
-task: return the reverse of a string.
-
-please know string reverse... very common interview question
- */
 
 public class StringReverse {
-    public String reverse(String s){
+    /**
+     * task: return the reverse of a string.
+     *
+     * please know string reverse... very common interview question.
+     * If you memorize how to do one problem, this would be it.
+     *
+     * @param str a String.
+     * @return the reverse of str.
+     */
+    public String reverse(String str){
         return null;
-
     }
 }

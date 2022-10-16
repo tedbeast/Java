@@ -1,6 +1,9 @@
 package Chapter4.Challenges.GetMax;
-//get max int from array
 public class GetMax {
+    /**
+     * @param arr an array of ints to be manipulated.
+     * @return the largest value in arr.
+     */
     public int max(int[] arr){
         return -1;
     }

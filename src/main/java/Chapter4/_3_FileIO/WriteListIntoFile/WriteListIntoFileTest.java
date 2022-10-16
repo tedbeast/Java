@@ -13,12 +13,27 @@ import java.util.Scanner;
 
 public class WriteListIntoFileTest {
     WriteListIntoFile wlift = new WriteListIntoFile();
+
+    /**
+     * reset the file before every single test.
+     * @throws IOException
+     */
     @Before
     public void resetFile() throws IOException {
         File f = new File("src/main/resources/Files/BlankFile.txt");
         f.delete();
         f.createNewFile();
     }
+
+    /**
+     * if a list contains the strings apple, banana, and pear, the write method should write to BlankFile.txt,
+     * which should follow this formatting:
+     * apple
+     * banana
+     * pear
+     *
+     * @throws FileNotFoundException
+     */
     @Test
     public void writeTest1() throws FileNotFoundException {
         String filePath = "src/main/resources/Files/BlankFile.txt";
@@ -37,7 +52,15 @@ public class WriteListIntoFileTest {
         line = s.nextLine().trim();
         Assert.assertEquals(line, "pear");
     }
-
+    /**
+     * if a list contains the strings apple, banana, and pear, the write method should write to BlankFile.txt,
+     * which should follow this formatting:
+     * penguin
+     * zebra
+     * lion
+     *
+     * @throws FileNotFoundException
+     */
     @Test
     public void writeTest2() throws FileNotFoundException {
         String filePath = "src/main/resources/Files/BlankFile.txt";

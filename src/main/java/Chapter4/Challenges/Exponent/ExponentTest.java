@@ -5,6 +5,10 @@ import org.junit.Test;
 
 public class ExponentTest {
     Exponent e = new Exponent();
+
+    /**
+     * 2^2 should return 4.
+     */
     @Test
     public void exponentTest1(){
         double inputBase = 2;
@@ -13,6 +17,10 @@ public class ExponentTest {
         double actual = e.getExp(inputBase, expBase);
         Assert.assertEquals(expected, actual, .01);
     }
+
+    /**
+     * 3^2 should return 9.
+     */
     @Test
     public void exponentTest2(){
         double inputBase = 3;
@@ -21,6 +29,10 @@ public class ExponentTest {
         double actual = e.getExp(inputBase, expBase);
         Assert.assertEquals(expected, actual, .01);
     }
+
+    /**
+     * 3^3 should return 27.
+     */
     @Test
     public void exponentTest3(){
         double inputBase = 3;
@@ -29,6 +41,10 @@ public class ExponentTest {
         double actual = e.getExp(inputBase, expBase);
         Assert.assertEquals(expected, actual, .01);
     }
+
+    /**
+     * 4^1 should return 4.
+     */
     @Test
     public void exponentTest4(){
         double inputBase = 4;
@@ -37,6 +53,10 @@ public class ExponentTest {
         double actual = e.getExp(inputBase, expBase);
         Assert.assertEquals(expected, actual, .01);
     }
+
+    /**
+     * 4^3 should return 64.
+     */
     @Test
     public void exponentTest5(){
         double inputBase = 4;

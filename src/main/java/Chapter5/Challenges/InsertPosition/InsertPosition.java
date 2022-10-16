@@ -1,10 +1,15 @@
 package Chapter5.Challenges.InsertPosition;
-/*
-task: return the position that a number should be inserted into a sorted array (see test cases)
-caveat: duplicate values to be inserted should come before all duplicates
- */
+
 
 public class InsertPosition {
+
+    /**
+     * Find the position that a number belongs to in a sorted array. See the test cases for examples.
+     * You may assume no duplicate values.
+     * @param nums an array of ints.
+     * @param target the number that would hypothetically be inserted.
+     * @return return the index that a number should be inserted into a sorted array.
+     */
     public int searchInsert(int[] nums, int target) {
         return -1;
     }

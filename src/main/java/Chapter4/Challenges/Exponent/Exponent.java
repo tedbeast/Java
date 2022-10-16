@@ -1,9 +1,12 @@
 package Chapter4.Challenges.Exponent;
 
-/*
-return base^exp. you can assume that base and exp are positive and greater than zero.
- */
 public class Exponent {
+    /**
+     * return the result of the math equation (base)^(exp) - eg, 3^2 = 9.
+     * @param base base of the exponent equation.
+     * @param exp exponent of the exponent equation.
+     * @return the exponent of base to the exp power.
+     */
     public double getExp(double base, int exp){
         return 0;
     }

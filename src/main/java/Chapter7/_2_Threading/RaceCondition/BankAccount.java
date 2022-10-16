@@ -21,7 +21,7 @@ public class BankAccount {
         this.userID = userID;
         this.balance = initialBalance;
     }
-    public void changeBalance(double amt){
+    public synchronized void changeBalance(double amt){
         double tempBalance = balance;
         tempBalance = balance + amt;
         try{

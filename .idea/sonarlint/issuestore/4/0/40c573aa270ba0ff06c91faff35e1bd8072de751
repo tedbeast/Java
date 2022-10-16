@@ -1,0 +1,4 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Œ‘³
+w
+java:S1221"aEither override Object.equals(Object obj), or totally rename the method to prevent any confusion.(×è¤Å
