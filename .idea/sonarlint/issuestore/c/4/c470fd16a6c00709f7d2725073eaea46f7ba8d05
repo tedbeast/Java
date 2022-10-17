@@ -1,0 +1,22 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ΉΊέψÿÿÿÿ
+£
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ιτ‰ψÿÿÿÿ8οΕυ½0
+e
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ε»έ
+k
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(°ο”ιόÿÿÿÿ
+k
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ιτ‰ψÿÿÿÿ
+k
+java:S1149&"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(»»ΓΥϋÿÿÿÿ
+f
+java:S1149."PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Ζ
+A
+java:S1168"+Return an empty collection instead of null.(¥Ήο
+O
+java:S3400"9Remove this method and declare a constant for this value.(”·³›
+T
+java:S3400'"9Remove this method and declare a constant for this value.(Φ§”Σώÿÿÿÿ
+T
+java:S3400/"9Remove this method and declare a constant for this value.(Φ§”Σώÿÿÿÿ
