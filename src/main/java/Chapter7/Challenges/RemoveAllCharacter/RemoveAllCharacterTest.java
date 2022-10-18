@@ -5,6 +5,10 @@ import org.junit.Test;
 
 public class RemoveAllCharacterTest {
     RemoveAllCharacter rac = new RemoveAllCharacter();
+
+    /**
+     * abcdef without c should be abdef
+     */
     @Test
     public void removeTest1(){
         String input = "abcdef";
@@ -13,6 +17,10 @@ public class RemoveAllCharacterTest {
         String actual = rac.removeAll(input, removed);
         Assert.assertEquals(expected,actual);
     }
+
+    /**
+     * gorilla without l should be goria
+     */
     @Test
     public void removeTest2(){
         String input = "gorilla";
@@ -21,6 +29,10 @@ public class RemoveAllCharacterTest {
         String actual = rac.removeAll(input, removed);
         Assert.assertEquals(expected,actual);
     }
+
+    /**
+     * banana without a should be bnn
+     */
     @Test
     public void removeTest3(){
         String input = "banana";

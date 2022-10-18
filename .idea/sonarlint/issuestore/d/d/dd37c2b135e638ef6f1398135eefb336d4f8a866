@@ -1,8 +1,0 @@
-
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(çÆ
-T
-java:S3400"9Remove this method and declare a constant for this value.(Ö§”Óşÿÿÿÿ
-O
-java:S3400"9Remove this method and declare a constant for this value.(”·³›
-<
-java:S1168'"&Return an empty array instead of null.(¥¹ï

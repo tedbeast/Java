@@ -1,6 +1,0 @@
-
-s
-java:S1104"VMake playerName a static final constant or non-public and provide accessors if needed.(ÍµðÁ8 Õ°ð»0
-n
-java:S1104"QMake level a static final constant or non-public and provide accessors if needed.(Ì–íï8–ë°ð»0
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¯êœÖ

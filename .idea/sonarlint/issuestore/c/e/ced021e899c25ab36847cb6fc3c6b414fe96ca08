@@ -1,8 +1,0 @@
-
-b
-java:S1192"GDefine a constant instead of duplicating this literal "banana" 3 times.(ûæ˜½øÿÿÿÿ
-\
-java:S1192"FDefine a constant instead of duplicating this literal "apple" 3 times.(ç°’
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(çÆ
-F
-java:S5960"+Remove this assertion from production code.(ûæ˜½øÿÿÿÿ

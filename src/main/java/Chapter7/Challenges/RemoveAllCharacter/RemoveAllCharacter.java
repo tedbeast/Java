@@ -1,8 +1,13 @@
 package Chapter7.Challenges.RemoveAllCharacter;
 
 public class RemoveAllCharacter {
-    public String removeAll(String s, String c){
+    /**
+     * Return a String that has all the character of a String removed.
+     * @param str
+     * @param ch
+     * @return str, without any characters of type ch.
+     */
+    public String removeAll(String str, String ch){
         return null;
     }
-
 }

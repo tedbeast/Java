@@ -1,12 +1,0 @@
-
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ό’
-H
-java:S1135"2Complete the task associated to this TODO comment.(ζ€€
-U
-java:S1854"?Remove this useless assignment to local variable "tempBalance".(π–ϊ“
-t
-java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(δ Ή€
-e
-java:S2276"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(»γίΊψÿÿÿÿ8ϋΒ–Ό0
-E
-java:S1068"*Remove this unused "userID" private field.(π‡„‰ϊÿÿÿÿ

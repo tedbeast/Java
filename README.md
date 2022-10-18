@@ -18,12 +18,22 @@ The structure of a junit test class is as follows: every one of the test classes
 In order to run the tests, you should be able to run them in intellij in the same way that you run any main class (the 'magic green button' to the left of your code). Mind that, in intellij, the 'magic green button' at the top right of the class reflects the last-run class, not the class you are currently looking at. You could also use maven command mvn:test, but that will run all the test cases which will take too long.
 
 ## Approximate deadlines
-I am still working through accurately organizing the repo by difficulty. In order for everyone to keep pace with learning programming fundamentals, here are the minimum requirements for your abilities week-by-week:
+I am still working through accurately organizing the repo by difficulty. In order for everyone to keep pace with learning programming fundamentals, here are the minimum requirements week-by-week:
 
-1) if you are in a 12-week cohort, chapters 1 and 2 should be completed by Friday of week 1. This is a hard deadline. 12-week cohorts should also complete chapter 3 by end of week 2.
-2) if you are in a 10-week cohort, chapters 1-3 should be completed by Friday of week 1 (you can skip chapters if you like)
-3) chapter 4 should be completed by the end of your first project.
-4) chapter 5 should be completed by the end of the training.
+|         | for 10 week cohorts  | for 12 week cohorts  |
+|---------|----------------------|----------------------|
+| week 1  | chapter 1-3 complete | chapter 1-2 complete |
+| week 2  | chapter 4 complete   | chapter 3 complete   |
+| week 3  | chapter 5 complete   | chapter 4 complete   |
+| week 4  |                      | chapter 5 complete   |
+| week 5  |                      |                      |
+| week 6  |                      |                      |
+| week 7  |                      |                      |
+| week 8  | chapter 6 complete   |                      |
+| week 9  |                      |                      |
+| week 10 | chapter 7 complete   | chapter 6 complete   |
+| week 11 |                      |                      |
+| week 12 |                      | chapter 7 complete   |
 
 If you are able to proceed at a faster pace, please do so, and I also recommend continuing incomplete content into Staging.
 
@@ -31,8 +41,8 @@ If you are able to proceed at a faster pace, please do so, and I also recommend 
 
 "Every day we should hear at least one little song, read one good poem, see one exquisite picture, and, if possible, speak a few sensible words." *Johann Wolfgang von Goethe*
 
-## License information
-This repository and the code contained may not be distributed without the express written permission of Theodore Balashov. Present Revature employees are permitted to freely use the contained content for their own enrichment. You may contact Theodore at theodore.balashov@revature.com for inquiries. 
+# License information
+This repository and the code contained may not be distributed without the express written permission of Theodore Balashov. This content may not be publicly posted anywhere or shared with anyone who is not a present Revature employee. Present Revature employees are permitted to freely use the contained content for their own enrichment. You may contact Theodore at theodore.balashov@revature.com for inquiries. 
 
 All the best
 
