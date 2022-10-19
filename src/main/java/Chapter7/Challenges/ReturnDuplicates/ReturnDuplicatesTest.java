@@ -12,6 +12,10 @@ public class ReturnDuplicatesTest {
     public static void setUp(){
         rd = new ReturnDuplicates();
     }
+
+    /**
+     * Within this array of integers, we expect 2 and 4 to be duplicates, but not 0 or 1.
+     */
     @Test
     public void rdTest1(){
         int[] input = {0, 1, 2, 2, 3, 4, 4};

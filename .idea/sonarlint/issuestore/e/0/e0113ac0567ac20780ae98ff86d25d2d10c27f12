@@ -1,8 +1,0 @@
-
-m
-java:S1104"RMake field1 a static final constant or non-public and provide accessors if needed.(‘²úÛøÿÿÿÿ
-h
-java:S1104"RMake field2 a static final constant or non-public and provide accessors if needed.(î²Œ
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ö–ôáøÿÿÿÿ
-C
-java:S1168"&Return an empty array instead of null.(¥¹ï8³„ğÇ¾0

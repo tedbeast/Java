@@ -5,6 +5,10 @@ import org.junit.Test;
 
 public class QueenTest {
     Queen q = new Queen();
+
+    /**
+     * On this board, the queen could make 3 moves.
+     */
     @Test
     public void queenTest1(){
         char[][] input = {
@@ -16,6 +20,10 @@ public class QueenTest {
         int actual = q.countMoves(input);
         Assert.assertEquals(expected, actual);
     }
+
+    /**
+     * On this board, the queen could make 8 moves.
+     */
     @Test
     public void queenTest2(){
         char[][] input = {
@@ -28,6 +36,10 @@ public class QueenTest {
         int actual = q.countMoves(input);
         Assert.assertEquals(expected, actual);
     }
+
+    /**
+     * On this board, the queen could make 6 moves.
+     */
     @Test
     public void queenTest3(){
         char[][] input = {
@@ -40,6 +52,10 @@ public class QueenTest {
         int actual = q.countMoves(input);
         Assert.assertEquals(expected, actual);
     }
+
+    /**
+     * On this board, the queen could make 9 moves.
+     */
     @Test
     public void queenTest4(){
         char[][] input = {
@@ -52,6 +68,10 @@ public class QueenTest {
         int actual = q.countMoves(input);
         Assert.assertEquals(expected, actual);
     }
+
+    /**
+     * On this board, the queen could make 11 moves.
+     */
     @Test
     public void queenTest5(){
         char[][] input = {
@@ -64,6 +84,10 @@ public class QueenTest {
         int actual = q.countMoves(input);
         Assert.assertEquals(expected, actual);
     }
+
+    /**
+     * On this board, the queen could make 9 moves.
+     */
     @Test
     public void queenTest6(){
         char[][] input = {

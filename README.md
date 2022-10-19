@@ -20,20 +20,20 @@ In order to run the tests, you should be able to run them in intellij in the sam
 ## Approximate deadlines
 I am still working through accurately organizing the repo by difficulty. In order for everyone to keep pace with learning programming fundamentals, here are the minimum requirements week-by-week:
 
-|         | for 10 week cohorts  | for 12 week cohorts  |
-|---------|----------------------|----------------------|
-| week 1  | chapter 1-3 complete | chapter 1-2 complete |
-| week 2  | chapter 4 complete   | chapter 3 complete   |
-| week 3  | chapter 5 complete   | chapter 4 complete   |
-| week 4  |                      | chapter 5 complete   |
-| week 5  |                      |                      |
-| week 6  |                      |                      |
-| week 7  |                      |                      |
-| week 8  | chapter 6 complete   |                      |
-| week 9  |                      |                      |
-| week 10 | chapter 7 complete   | chapter 6 complete   |
-| week 11 |                      |                      |
-| week 12 |                      | chapter 7 complete   |
+|         | for 10 week cohorts  | for 12 week cohorts |
+|---------|----------------------|---------------------|
+| week 1  | chapter 1-2 complete | chapter 1 complete  |
+| week 2  | chapter 3 complete   | chapter 2 complete  |
+| week 3  | chapter 4 complete   | chapter 3 complete  |
+| week 4  |                      | chapter 4 complete  |
+| week 5  |                      |                     |
+| week 6  |                      |                     |
+| week 7  |                      |                     |
+| week 8  | chapter 5 complete   |                     |
+| week 9  |                      |                     |
+| week 10 | chapter 6 complete   | chapter 5 complete  |
+| week 11 |                      |                     |
+| week 12 |                      | chapter 6 complete  |
 
 If you are able to proceed at a faster pace, please do so, and I also recommend continuing incomplete content into Staging.
 

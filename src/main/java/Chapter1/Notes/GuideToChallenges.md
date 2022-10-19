@@ -1,6 +1,6 @@
 # Guide to Coding Challenges
 
-Coding challenges are a trained skill that takes months to improve on. They are not a reflection of someone's ability to develop software, but are an approximation of problem solving skill that can be trained, kind of like chess. As a result, many interviews feature a coding challenge. Interviews with Revature that have coding challenge are usually at the difficulty of those in chapters 6-7. Many of the challenges are taken straight from real interviews. Regardless of initial skill level, everyone should be able to solve a level 5 difficulty challenge within 10 minutes by the end of the training.
+Coding challenges are a trained skill that takes months to improve on. They are not a reflection of someone's ability to develop software, but are an approximation of problem solving skill that can be trained, kind of like chess. As a result, many interviews feature a coding challenge. Interviews with Revature that have coding challenge are usually at the difficulty of those in chapters 5-6. Many of the challenges are taken straight from real interviews. Regardless of initial skill level, everyone should be able to solve a level 5 difficulty challenge within 10 minutes by the end of the training.
 
 ## How to solve coding challenges
 
