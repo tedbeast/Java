@@ -5,9 +5,8 @@ package Chapter0._0_Start;
  * behavior (methods).
  *
  * The public keyword here is one of the access modifiers. The access modifier affects if the class, variable,
- * or method is visible outside of this class: for instance, if we used the private keyword rather than public,
- * our testing class wouldn't have access, and we wouldn't be able to instantiate a Guide object or call the
- * guideMethod method.
+ * or method is visible outside of this class. Public is used here to designate this class as accessible across the
+ * entire application.
  */
 public class Guide {
     /**

@@ -1,7 +1,7 @@
 package Chapter1._0_OOP.IntroToOOP;
 
 /**
- * What would like objects to be able to do
+ * We would like objects to be able to
  *      a) contain some data
  *      and
  *      b) change its behavior based off of the data that it individually contains.

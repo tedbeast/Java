@@ -2,6 +2,7 @@ package Chapter1._3_FileIO.WritingToFile;
 
 public class WriteToFile {
     /**
+     * This is a research problem!
      * Similarly to reading from a file, you will need to research how to write to a file as well.
      * The test cases will clear the file before every test and check that the file contains text.
      *

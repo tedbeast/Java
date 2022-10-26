@@ -2,7 +2,7 @@ package Chapter2.Challenges.Return1ToN;
 
 public class ReturnString1ToN {
     /**
-     * This method should create a string of all the numbers in an array.
+     * This method should create a string of all the numbers up to N.
      * eg, for input 7 it should be formatted something like this:
      * 1 2 3 4 5 6 7
      * spaces and newlines at the end of the string will not affect test results.

@@ -11,9 +11,6 @@ package Chapter6._0_DataStructuresAndAlgorithms.Duplicates;
  * However, it's possible to solve this problem in a way that scales to O(nlog(n)) or even O(n) complexity with
  * regards to the input.
  *
- * Hint: there are ways to store values using collections that are more efficient
- * with certain operations, such as very fast ways to store and check for unique values.
- *
  * The test cases will be testing for a 2x speedup in real-time over the n^2 time solution on large inputs.
  */
 public class DuplicateComplexity {
@@ -35,6 +32,13 @@ public class DuplicateComplexity {
 
     /**
      * TODO: write a method that finds duplicate Strings that is more efficient than the provided method above.
+     *
+     * Hint: there are ways to store values using collections that are more efficient
+     * with certain operations, such as very fast ways to store and check for unique values.
+     *
+     * How can we leverage collections that only accept unique values to check if a unique value has already
+     * been added to the said collection?
+     *
      * @param words an array of Strings.
      * @return true if there are duplicate Strings in words.
      */

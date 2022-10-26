@@ -24,7 +24,6 @@ public class ListExercise {
      * @return a List<Integer> object.
      */
     public List<Integer> createList(){
-//        return a brand-new list that contains type Integer.
         return null;
     }
 

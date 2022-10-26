@@ -50,6 +50,8 @@ public class GuideTest {
         String inputMessage = "hello";
         String expected = "Success from guide object 1! it says: hello";
         String actual = g.guideMethod(inputMessage);
+        System.out.println("Expected: "+expected);
+        System.out.println("Actual: "+actual);
         Assert.assertEquals(expected, actual);
 
     }
@@ -64,6 +66,8 @@ public class GuideTest {
         String inputMessage = "test";
         String expected = "Success from guide object 1! it says: test";
         String actual = g.guideMethod(inputMessage);
+        System.out.println("Expected: "+expected);
+        System.out.println("Actual: "+actual);
         Assert.assertEquals(expected, actual);
 
     }

@@ -1,9 +1,9 @@
 package Chapter9.Challenges.RecurringWord;
 /*
-given a string, return true if a substring of at least 2 characters ever repeats.
+given a string, return true if a substring of at least n characters ever repeats.
  */
 public class RecurringWord {
-    public boolean recurringWord(String in){
+    public boolean recurringWord(String in, int size){
         return false;
     }
 }
