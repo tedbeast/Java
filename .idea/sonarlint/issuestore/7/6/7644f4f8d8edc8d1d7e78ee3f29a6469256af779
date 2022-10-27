@@ -1,0 +1,30 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(œòÙ¿ıÿÿÿÿ
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áÒŸü
+\
+java:S1854":Remove this useless assignment to local variable "actual".(‡§´¸ùÿÿÿÿ8´ş¬­Á0
+J
+java:S1481"-Remove this unused "expected" local variable.(Ú‘Ùœ8´ş¬­Á0
+M
+java:S1481"+Remove this unused "actual" local variable.(‡§´¸ùÿÿÿÿ8´ş¬­Á0
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë®Ëƒ8Ÿª­­Á0
+\
+java:S1854":Remove this useless assignment to local variable "actual".(‡§´¸ùÿÿÿÿ8ƒ™­­Á0
+J
+java:S1481"-Remove this unused "expected" local variable.(Ú‘Ùœ8 ª­­Á0
+M
+java:S1481"+Remove this unused "actual" local variable.(‡§´¸ùÿÿÿÿ8 ª­­Á0
+i	java:S100$"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯¯ø!8Îö²­Á0
+\
+java:S1854(":Remove this useless assignment to local variable "actual".(‡§´¸ùÿÿÿÿ8²°­Á0
+J
+java:S1481'"-Remove this unused "expected" local variable.(Û¿Şù8Îö²­Á0
+M
+java:S1481("+Remove this unused "actual" local variable.(‡§´¸ùÿÿÿÿ8Ïö²­Á0
+o	java:S100."NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âÌÛúÿÿÿÿ8Œá¼­Á0
+\
+java:S18542":Remove this useless assignment to local variable "actual".(‡§´¸ùÿÿÿÿ8·æº­Á0
+J
+java:S14811"-Remove this unused "expected" local variable.(Û¿Şù8á¼­Á0
+M
+java:S14812"+Remove this unused "actual" local variable.(‡§´¸ùÿÿÿÿ8á¼­Á0

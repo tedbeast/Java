@@ -1,7 +1,6 @@
 package Chapter9.Challenges.WordSearch;
-/*
-I haven't yet finished writing this challenge.
-TODO: finish challenge
+/**
+ * This challenge has not been written yet; this is a placeholder
  */
 public class WordSearch {
 }

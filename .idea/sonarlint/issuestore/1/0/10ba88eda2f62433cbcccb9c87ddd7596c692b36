@@ -1,0 +1,34 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Δ΄ήδ
+P
+java:S1854":Remove this useless assignment to local variable "actual".(κδ²χ
+W
+java:S1854"<Remove this useless assignment to local variable "expected".(οίΰεÿÿÿÿÿ
+H
+java:S1481"-Remove this unused "expected" local variable.(οίΰεÿÿÿÿÿ
+A
+java:S1481"+Remove this unused "actual" local variable.(κδ²χ
+P
+java:S1854":Remove this useless assignment to local variable "actual".(κδ²χ
+R
+java:S1854"<Remove this useless assignment to local variable "expected".(Νϋζµ
+C
+java:S1481"-Remove this unused "expected" local variable.(Νϋζµ
+A
+java:S1481"+Remove this unused "actual" local variable.(κδ²χ
+P
+java:S1854$":Remove this useless assignment to local variable "actual".(κδ²χ
+Q
+java:S1854#"<Remove this useless assignment to local variable "expected".(Ρ΅(
+B
+java:S1481#"-Remove this unused "expected" local variable.(Ρ΅(
+A
+java:S1481$"+Remove this unused "actual" local variable.(κδ²χ
+P
+java:S1854.":Remove this useless assignment to local variable "actual".(κδ²χ
+Q
+java:S1854-"<Remove this useless assignment to local variable "expected".(Ρ΅(
+B
+java:S1481-"-Remove this unused "expected" local variable.(Ρ΅(
+A
+java:S1481."+Remove this unused "actual" local variable.(κδ²χ

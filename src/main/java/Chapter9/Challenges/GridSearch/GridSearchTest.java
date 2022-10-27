@@ -5,6 +5,10 @@ import org.junit.Test;
 
 public class GridSearchTest {
     GridSearch gs = new GridSearch();
+
+    /**
+     * there is a valid path between a and b here.
+     */
     @Test
     public void searchTest1(){
         char[][] input =
@@ -18,6 +22,10 @@ public class GridSearchTest {
         boolean actual = gs.search(input);
         Assert.assertEquals(expected,actual);
     }
+
+    /**
+     * there is no valid path between a and b here.
+     */
     @Test
     public void searchTest2(){
         char[][] input =
@@ -31,6 +39,10 @@ public class GridSearchTest {
         boolean actual = gs.search(input);
         Assert.assertEquals(expected,actual);
     }
+
+    /**
+     * there is a valid path between a and b here, across the bottom of the board.
+     */
     @Test
     public void searchTest3(){
         char[][] input =
@@ -44,6 +56,10 @@ public class GridSearchTest {
         boolean actual = gs.search(input);
         Assert.assertEquals(expected,actual);
     }
+
+    /**
+     * there is a valid path between a and b here.
+     */
     @Test
     public void searchTest4(){
         char[][] input =
@@ -58,6 +74,10 @@ public class GridSearchTest {
         boolean actual = gs.search(input);
         Assert.assertEquals(expected,actual);
     }
+
+    /**
+     * there is a valid path between and b here.
+     */
     @Test
     public void searchTest5(){
         char[][] input =
@@ -72,6 +92,10 @@ public class GridSearchTest {
         boolean actual = gs.search(input);
         Assert.assertEquals(expected,actual);
     }
+
+    /**
+     * there is no valid path between a and b here.
+     */
     @Test
     public void searchTest6(){
         char[][] input =

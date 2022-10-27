@@ -9,6 +9,8 @@ public class ConnectedGraph {
      * Your task is to determine if all elements are connected by some path to each other, or if the 2d array
      * represents multiple graphs that are disjoint from each other.
      *
+     * You will most likely need to use recursion.
+     *
      * @param links represents whether a connection exists between the nodes represented indexes between the two
      *              indices used in the 2d array, with the indices representing a particular node in a graph.
      * @return true if all nodes of the graph can be connected as a single graph, false if the graph is disjoint.

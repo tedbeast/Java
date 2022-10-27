@@ -1,7 +1,7 @@
 package Chapter9.Challenges.Minesweeper;
-/*
-I haven't yet finished writing this challenge.
-TODO: finish challenge
+
+/**
+ * This challenge has not been written yet; this is a placeholder
  */
 public class Minesweeper {
 }
