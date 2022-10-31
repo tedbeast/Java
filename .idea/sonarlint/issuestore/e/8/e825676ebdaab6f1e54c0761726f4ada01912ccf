@@ -1,6 +1,0 @@
-
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(üûù›
-O
-java:S1874"4Remove this use of "assertEquals"; it is deprecated.(å¢©‹ÿÿÿÿÿ
-A
-java:S5960"+Remove this assertion from production code.(œ”ºÀ

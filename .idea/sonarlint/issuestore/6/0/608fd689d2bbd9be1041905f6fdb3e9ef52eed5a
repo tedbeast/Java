@@ -1,6 +1,0 @@
-
-a
-java:S11922"FDefine a constant instead of duplicating this literal "Sally" 5 times.(ı„°ıÿÿÿÿ
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Üş§ûÿÿÿÿ
-F
-java:S5960"+Remove this assertion from production code.(èÚã§ùÿÿÿÿ

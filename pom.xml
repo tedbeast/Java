@@ -11,8 +11,8 @@
 <!--    maven allows us to change the version of java we'd like to use -->
 
     <properties>
-        <maven.compiler.source>15</maven.compiler.source>
-        <maven.compiler.target>15</maven.compiler.target>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
     </properties>
 
 <!--    maven allows us to use external dependencies from mvn repository.
@@ -42,7 +42,13 @@
             <artifactId>jackson-databind</artifactId>
             <version>2.14.0-rc1</version>
         </dependency>
-
+        <!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <version>2.1.214</version>
+            <scope>test</scope>
+        </dependency>
 
     </dependencies>
 
