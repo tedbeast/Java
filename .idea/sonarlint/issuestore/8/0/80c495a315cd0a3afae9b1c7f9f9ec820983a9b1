@@ -1,8 +1,0 @@
-
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ù„ýûþÿÿÿÿ
-c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í…ùÝ
-h	java:S100("NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Öˆßµüÿÿÿÿ
-O
-java:S3400*"9Remove this method and declare a constant for this value.(”·³›
-F
-java:S1172("+Remove this unused method parameter "nums".(Öˆßµüÿÿÿÿ

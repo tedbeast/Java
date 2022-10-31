@@ -1,8 +1,0 @@
-
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬½Ë™
-U
-java:S1854"?Remove this useless assignment to local variable "tempBalance".(ð–ú“
-t
-java:S2142!"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
-E
-java:S1068"*Remove this unused "userID" private field.(ð‡„‰úÿÿÿÿ
