@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Java" />
         <module name="Challenges" />
+        <module name="JavaLabs" />
       </profile>
     </annotationProcessing>
   </component>
