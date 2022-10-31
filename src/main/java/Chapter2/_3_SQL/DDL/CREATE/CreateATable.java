@@ -40,7 +40,7 @@ public class CreateATable {
             Connection connection = ConnectionUtil.getConnection();
 
             //Write SQL logic here
-            String sql = "create table songs (Title varchar(100));";
+            String sql = "****CHANGE ME****";
 
             PreparedStatement ps = connection.prepareStatement(sql);
 
