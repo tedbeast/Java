@@ -1,6 +1,5 @@
 package Chapter2.MiniProject.GroceryList.main;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -8,44 +7,36 @@ import java.util.List;
  * Grocery items will be stored here as Strings.
  */
 public class GroceryService {
-    private List<String> groceryItems;
-
+    GroceryDAO groceryDAO;
     /**
      * There is no need to modify this constructor, it already works.
-     * Instantiate a new GroceryService.
-     * Currently this class has a field we could use to store grocery items, but it has not been instantiated.
+     * Instantiate a new GroceryService and instantiates its GroceryRepository as well.
      */
     public GroceryService(){
-        groceryItems = new ArrayList<>();
+        groceryDAO = new GroceryDAO();
     }
     /**
-     * There is no need to modify this method, it already works.
-     * Retrieve a list of all groceries held by the userService.
-     * @return groceryItems.
+     * TODO: Use the GroceryRepository to retrieve a list of all the groceries from the database.
+     * @return all the groceries.
      */
     public List<String> getAllGroceries() {
-        return groceryItems;
+        return null;
     }
     /**
-     * TODO: add an item to groceryList.
-     * however, it should first check if the list already contains the item - in order to avoid duplicates.
+     * TODO: Use the GroceryRepository to a grocery to the database.
+     * however, it should first check if the database already contains the item - in order to avoid duplicates.
      * If there are duplicates in the grocery list, this method will fail a test.
      * @param item the String representing the grocery item to be added.
      */
     public void addItem(String item){
     }
     /**
-     * TODO: check if the groceryList already contains an item.
-     * @return true if groceryItems contains a certain grocery item name, false otherwise.
+     * TODO: Check if the database already contains a grocery.
+     * @return true if the grocery database contains a certain grocery item name, false otherwise.
      * it is recommended to use .equals() when checking if an object is equivalent to another object.
      * this is because comparisons between objects are actually comparing their reference address, not the object.
      */
     public boolean containsItem(String item){
         return false;
-    }
-    /**
-     * TODO: clear the groceryList - remove all items.
-     */
-    public void goShopping(){
     }
 }

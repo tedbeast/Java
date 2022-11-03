@@ -3,6 +3,9 @@ package Chapter0.MiniProject.GuessingGame.main;
 import java.util.Scanner;
 
 /**
+ * Let's finish up our number-related challenges by creating a little game for users to play - for instance,
+ * we could a game where the player is asked to name a number such as pi, 3.14.
+ *
  * There is no need to change anything in this class. It does not affect the outcome of the test cases.
  * The purpose of this class is for you to interact with a functional Console Line menu, so that you can
  * see how your code works from the user's end.

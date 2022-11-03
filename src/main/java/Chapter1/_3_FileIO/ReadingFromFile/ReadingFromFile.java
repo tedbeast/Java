@@ -5,7 +5,8 @@ import java.io.FileNotFoundException;
 
 public class ReadingFromFile {
     /**
-     * This is a research problem!
+     * This is a research problem! FileIO requires a number of moving parts, but is also an interesting problem
+     * on its own.
      * Read a single line from a file. You will need to look up how to read a file in Java and interpret the code you
      * find such that you can write a working method.
      *
