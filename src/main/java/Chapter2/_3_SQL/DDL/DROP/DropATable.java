@@ -15,6 +15,8 @@ public class DropATable {
      * Let's drop the table we just created from the previous activity.
      *
      * You can read about the syntax here: https://www.w3schools.com/sql/sql_drop_table.asp
+     * NOTE: Dropping a table is a part of the DDL sublanguage
+     *
      *
      * Activity: Drop the table "songs"
      * */
@@ -23,7 +25,7 @@ public class DropATable {
             Connection connection = ConnectionUtil.getConnection();
 
             //Write SQL logic here
-            String sql = "DROP TABLE songs";
+            String sql = "CHANGE ME";
 
             PreparedStatement ps = connection.prepareStatement(sql);
 

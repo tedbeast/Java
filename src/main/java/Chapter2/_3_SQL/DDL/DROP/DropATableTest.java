@@ -17,7 +17,7 @@ public class DropATableTest {
     private DropATable dropATable = new DropATable();
 
     /**
-     * The after annotation runs after every test so that way we drop the tables to avoid conflicts in future tests
+     * The @Before annotation runs before every test so that way we create the tables required prior to running the test
      */
     @Before
     public void beforeTest(){
@@ -39,7 +39,7 @@ public class DropATableTest {
     }
 
     /**
-     * The after annotation runs after every test so that way we drop the tables to avoid conflicts in future tests
+     * The @After annotation runs after every test so that way we drop the tables to avoid conflicts in future tests
      */
     @After
     public void cleanup(){

@@ -12,14 +12,23 @@ import java.sql.SQLException;
 public class InsertARecord {
 
     /**
-     * Activity: Assuming the table "songs" already exists, write the sql statement that allows us to add a new record into the table "songs".
+     * For this lab, the table "songs" is already generated.
+     *
+     * Visual Representation of Songs Table:
+     *      |      Title        |        Artist         |
+     *      ---------------------------------------------
+     *      |"Let it be"        |Beatles                |
+     *      |"Hotel California" |Eagles                 |
+     *      |"Kashmir"          |Led Zeppelin           |
+     *
+     * Activity: Write the sql statement that allows us to add a new record into the table "songs".
      * */
     public boolean addSong(){
         try {
             Connection connection = ConnectionUtil.getConnection();
 
             //Write SQL logic here
-            String sql = "INSERT INTO songs VALUES ('Let it be');";
+            String sql = "CHANGE ME";
 
             PreparedStatement ps = connection.prepareStatement(sql);
 
