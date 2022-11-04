@@ -3,6 +3,9 @@ package Chapter1._2_Arrays;
 /**
  * An array is a group of some predefined number of elements.
  * For instance, we could have an array of 10 ints or 10 Strings.
+ *
+ * Or, we could have an array of our own custom Objects, such as our own Bird class for a birdwatching
+ * application. This would allow us to keep track of many birds and their own behavior.
  */
 public class ArrayBasics {
     /**

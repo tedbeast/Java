@@ -65,24 +65,4 @@ public class GroceryServiceTest {
         groceryList.remove(0);
         Assert.assertFalse(gs.containsItem("bread"));
     }
-
-    /**
-     * When items are added via GroceryService, they should be contained by the GroceryService.
-     * When goShopping is called, the items added to GroceryService should no longer be in the GroceryService.
-     */
-    @Test
-    public void shoppingTest1(){
-        GroceryService gs = new GroceryService();
-        gs.addItem("milk");
-        gs.addItem("bread");
-        gs.addItem("bacon");
-        Assert.assertTrue(gs.containsItem("milk"));
-        Assert.assertTrue(gs.containsItem("bread"));
-        Assert.assertTrue(gs.containsItem("bacon"));
-        gs.goShopping();
-
-        Assert.assertFalse(gs.containsItem("milk"));
-        Assert.assertFalse(gs.containsItem("bread"));
-        Assert.assertFalse(gs.containsItem("bacon"));
-    }
 }

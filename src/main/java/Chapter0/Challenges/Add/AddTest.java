@@ -3,13 +3,14 @@ package Chapter0.Challenges.Add;
 ;
 
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class AddTest {
     static Add a;
-    @BeforeClass
-    public static void setUp(){
+    @Before
+    public void setUp(){
         a = new Add();
     }
 

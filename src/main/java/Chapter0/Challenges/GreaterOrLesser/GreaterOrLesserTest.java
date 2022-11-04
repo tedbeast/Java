@@ -3,13 +3,14 @@ package Chapter0.Challenges.GreaterOrLesser;
 ;
 
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class GreaterOrLesserTest {
-    public static GreaterOrLesser gol;
-    @BeforeClass
-    public static void setUp(){
+    public GreaterOrLesser gol;
+    @Before
+    public void setUp(){
         gol = new GreaterOrLesser();
     }
 

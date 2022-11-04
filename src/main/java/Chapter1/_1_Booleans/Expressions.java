@@ -1,5 +1,10 @@
 package Chapter1._1_Booleans;
 
+/**
+ * In order to make our programs even more impressive and interactive, we need to learn how to better leverage
+ * boolean expressions. This will allow our programs to follow their own logic. For this example, you should look into
+ * the different operators for basic boolean expressions.
+ */
 public class Expressions {
     /**
      * @param b a true/false value.

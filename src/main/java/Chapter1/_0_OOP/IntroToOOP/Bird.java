@@ -5,6 +5,7 @@ package Chapter1._0_OOP.IntroToOOP;
  *      a) contain some data
  *      and
  *      b) change its behavior based off of the data that it individually contains.
+ *
  * Let's say we're working on a birdwatching app.
  * Using OOP, we could maintain many birds which individually contain their own
  * age, and can generate their own sound. This concept of an object controlling its own data can be
