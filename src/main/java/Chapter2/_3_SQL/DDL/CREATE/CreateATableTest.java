@@ -35,10 +35,10 @@ public class CreateATableTest {
         } catch (SQLException e) { 
             System.out.println("dropping table");
         }
-    }   
+    }
 
     /**
-     * To test that the table exists, we are attempting to insert a row into the table and if table does not exists, and exception will be thrown and the test will fail.
+     * The @After annotation runs after every test so that way we drop the tables to avoid conflicts in future tests
      */
     @Test
     public void createTableTest(){

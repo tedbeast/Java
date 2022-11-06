@@ -30,7 +30,7 @@ public class CreateATable {
      * |"Hotel California" |Eagles                 |
      * |"Kashmir"          |Led Zeppelin           |
      * 
-     * Lets create our first SQL table.
+     * Let's create our first SQL table.
      * You can read about the syntax here: https://www.w3schools.com/sql/sql_create_table.asp
      * 
      * Assignment: Create a new table in our database called "songs" with 2 columns "Title" and "Artist".
@@ -40,7 +40,7 @@ public class CreateATable {
             Connection connection = ConnectionUtil.getConnection();
 
             //Write SQL logic here
-            String sql = "****CHANGE ME****";
+            String sql = "CHANGE ME";
 
             PreparedStatement ps = connection.prepareStatement(sql);
 
