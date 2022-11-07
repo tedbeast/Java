@@ -1,6 +1,5 @@
 package Chapter2._3_SQL.DDL.DROP;
 
-import Chapter2._3_SQL.DDL.CREATE.CreateATable;
 import Util.ConnectionUtil;
 import org.junit.After;
 import org.junit.Assert;

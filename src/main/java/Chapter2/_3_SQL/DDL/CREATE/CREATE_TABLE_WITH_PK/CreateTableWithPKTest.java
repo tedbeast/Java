@@ -1,22 +1,21 @@
-package Chapter2._3_SQL.DDL.CREATE;
+package Chapter2._3_SQL.DDL.CREATE.CREATE_TABLE_WITH_PK;
 
-import static org.junit.Assert.fail;
+import Util.ConnectionUtil;
+import org.junit.After;
+import org.junit.Test;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-import org.junit.After;
-import org.junit.Test;
+import static org.junit.Assert.fail;
 
-import Util.ConnectionUtil;
+public class CreateTableWithPKTest {
 
-public class CreateATableTest {
-
-    private CreateATable createATable = new CreateATable();
+    private CreateTableWithPK createTableWithPK = new CreateTableWithPK();
 
     /**
-     * The after annotation runs after every test so that way we drop the tables to avoid conflicts in future tests
+     * The @After annotation runs after every test so that way we drop the tables to avoid conflicts in future tests
      */
     @After
     public void cleanup(){
@@ -32,23 +31,21 @@ public class CreateATableTest {
 
             ps.executeUpdate();
 
-        } catch (SQLException e) { 
+        } catch (SQLException e) {
             System.out.println("dropping table");
         }
     }
 
-    /**
-     * The @After annotation runs after every test so that way we drop the tables to avoid conflicts in future tests
-     */
+
     @Test
-    public void createTableTest(){
-        
+    public void createTableSurrogateKeyTest(){
+
         try {
-            createATable.createTable();
+            createTableWithPK.createSurrogateKey();
 
             Connection connection = ConnectionUtil.getConnection();
 
-            //Write SQL logic here
+            //Notice that we are not manually adding a number for the primary key here. The db will do this for us because of the "SERIAL" datatype to be used.
             String sql = "INSERT into songs (Title, Artist) VALUES ('Let it Be', 'Beatles')";
 
             PreparedStatement ps = connection.prepareStatement(sql);
@@ -62,5 +59,6 @@ public class CreateATableTest {
 
 
     }
+
 
 }
