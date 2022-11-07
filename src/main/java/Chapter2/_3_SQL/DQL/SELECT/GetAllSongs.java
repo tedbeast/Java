@@ -26,7 +26,7 @@ import java.util.List;
  *
  * The syntax for retrieving all rows and columns from a database table looks like the following:
  *
- * SELECT * FROM [TABLE_NAME];
+ * SELECT * FROM table_name;
  *
  * NOTE: The square brackets above is representing a dynamic variable. Instead of writing [TABLE_NAME], you would input the table you are trying to retrieve data from.
  * External Documentation Here (If Needed): https://www.w3schools.com/sql/sql_select.asp
