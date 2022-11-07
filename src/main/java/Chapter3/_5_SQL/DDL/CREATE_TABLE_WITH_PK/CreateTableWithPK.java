@@ -54,7 +54,7 @@ public class CreateTableWithPK {
         try {
             Connection connection = ConnectionUtil.getConnection();
 
-            //Write SQL logic here
+            //Write SQL statement here
             String sql = "CHANGE ME";
 
             PreparedStatement ps = connection.prepareStatement(sql);

@@ -52,8 +52,8 @@ public class FilteringQueries {
         try {
             Connection connection = ConnectionUtil.getConnection();
 
-            //Write SQL logic here
-            String sql = "SELECT * FROM users;";
+            //Write SQL statement here
+            String sql = "CHANGE ME";
 
             PreparedStatement ps = connection.prepareStatement(sql);
 
