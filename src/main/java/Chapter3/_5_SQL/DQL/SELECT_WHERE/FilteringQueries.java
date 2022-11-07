@@ -1,7 +1,6 @@
 package Chapter3._5_SQL.DQL.SELECT_WHERE;
 
 
-import Chapter2._3_SQL.DQL.SELECT.Song;
 import Util.ConnectionUtil;
 
 import java.sql.Connection;
@@ -13,17 +12,18 @@ import java.util.List;
 
 /**
  * In our previous DQL lab, we learned to query all records from a table utilizing the "SELECT" keyword.
- * In some situations it is beneficial to filter what records are given to us from table.
+ * In some situations it is beneficial to filter what records are given to us from a table.
  *
  * For example lets look at the "users" table below:
  *        |   id  |     firstname        |        lastname        |
  *        ----------------------------------------------------------
- *        |1      |"Steve"               |"Garcia"                |
- *        |2      |"Alexa"               |"Smith"                 |
- *        |3      |"Steve"               |"Jones"                 |
- *        |4      |"Brandon"             |"Smith"                 |
+ *        |1      |'Steve'               |'Garcia'                |
+ *        |2      |'Alexa'               |'Smith'                 |
+ *        |3      |'Steve'               |'Jones'                 |
+ *        |4      |'Brandon'             |'Smith'                 |
+ *        |5      |'Adam'                |'Jones'                 |
  *
- * Let's say we wanted to query all the records from the table that have the firstname "Steve".
+ * Let's say we wanted to query all the records from the table that have the first name "Steve".
  *
  * The statement that will be utilized is as follows:
  * SELECT * FROM users WHERE firstname = 'Steve';
@@ -31,12 +31,12 @@ import java.util.List;
  * In the above statement, the "WHERE" keyword allows us to filter the records based on the condition defined after the keyword.
  * The condition that we specified is that the firstname column must have the value "Steve".
  *
- * This statement would have queried the following result set:
+ * This statement would have returned the following result set:
  *
  *        |   id  |     firstname        |        lastname        |
  *        ----------------------------------------------------------
- *        |1      |"Steve"               |"Garcia"                |
- *        |3      |"Steve"               |"Jones"                 |
+ *        |1      |'Steve'               |'Garcia'                |
+ *        |3      |'Steve'               |'Jones'                 |
  *
  *  Additional resource on the "WHERE" keyword if needed: https://www.w3schools.com/sql/sql_where.asp
  *
@@ -47,13 +47,13 @@ public class FilteringQueries {
      * Activity: Given the above users table, query all the records from the table users that have the lastname "Smith"
      */
     public List<User> filter(){
-        List<User> users = new ArrayList<>();
+        //Write SQL statement here
+        String sql = "CHANGE ME";
 
+
+        List<User> users = new ArrayList<>();
         try {
             Connection connection = ConnectionUtil.getConnection();
-
-            //Write SQL statement here
-            String sql = "CHANGE ME";
 
             PreparedStatement ps = connection.prepareStatement(sql);
 

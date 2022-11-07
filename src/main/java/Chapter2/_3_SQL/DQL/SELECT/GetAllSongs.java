@@ -15,11 +15,11 @@ import java.util.List;
  * The db table we will utilize is "songs" table from the DDL lab.
  *
  *      Songs Table Diagram:
- *      |      title        |        artist         |
- *      ---------------------------------------------
- *      |"Let it be"        |Beatles                |
- *      |"Hotel California" |Eagles                 |
- *      |"Kashmir"          |Led Zeppelin           |
+ *      |      Title        |        Artist          |
+ *      ----------------------------------------------
+ *      |'Let it be'        |'Beatles'               |
+ *      |'Hotel California' |'Eagles'                |
+ *      |'Kashmir'          |'Led Zeppelin'          |
  *
  * The sublanguage for retrieving data from tables is called DQL (Data Query Language).
  * This language utilizes the keyword "SELECT".
@@ -36,14 +36,12 @@ import java.util.List;
  */
 public class GetAllSongs {
     public List<Song> retrieveAllSongsFromTable(){
+        //Write SQL logic here
+        String sql = "CHANGE ME";
 
         List<Song> songs = new ArrayList<>();
-
         try {
             Connection connection = ConnectionUtil.getConnection();
-
-            //Write SQL logic here
-            String sql = "CHANGE ME";
 
             PreparedStatement ps = connection.prepareStatement(sql);
 
