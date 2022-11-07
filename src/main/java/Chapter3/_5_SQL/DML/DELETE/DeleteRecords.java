@@ -11,13 +11,14 @@ import java.sql.SQLException;
  *
  * The syntax for deleting records from a table is as follows:
  *
- * DELETE FROM [TABLE_NAME] WHERE [CONDITION];
+ * DELETE FROM table_name WHERE condition;
  *
  * NOTE: Whenever you execute a DELETE statement, have a WHERE condition that identifies exactly what records you would like to delete.
  * Leaving this out will remove ALL records from the table.
  *
  * Additional resource if needed: https://www.w3schools.com/sql/sql_delete.asp
  */
+
 public class DeleteRecords {
 
     /**
@@ -25,19 +26,20 @@ public class DeleteRecords {
      *        users table:
      *        |   id  |     firstname        |        lastname        |
      *        ----------------------------------------------------------
-     *        |1      |"Steve"               |"Garcia"                |
-     *        |2      |"Alexa"               |"Smith"                 |
-     *        |3      |"Steve"               |"Jones"                 |
-     *        |4      |"Brandon"             |"Smith"                 |
+     *        |1      |'Steve'               |'Garcia'                |
+     *        |2      |'Alexa'               |'Smith'                 |
+     *        |3      |'Steve'               |'Jones'                 |
+     *        |4      |'Brandon'             |'Smith'                 |
+     *        |5      |'Adam'                |'Jones'                 |
      *
      * Assignment: Delete "Steve Jones" from the users table.
      */
     public void delete(){
+        //Write SQL statement here
+        String sql = "CHANGE ME";
+
         try {
             Connection connection = ConnectionUtil.getConnection();
-
-            //Write SQL statement here
-            String sql = "CHANGE ME";
 
             PreparedStatement ps = connection.prepareStatement(sql);
 
