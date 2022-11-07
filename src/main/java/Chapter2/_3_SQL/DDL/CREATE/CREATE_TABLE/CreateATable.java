@@ -1,4 +1,4 @@
-package Chapter2._3_SQL.DDL.CREATE;
+package Chapter2._3_SQL.DDL.CREATE.CREATE_TABLE;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
