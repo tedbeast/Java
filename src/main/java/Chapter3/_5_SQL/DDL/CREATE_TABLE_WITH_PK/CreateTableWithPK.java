@@ -1,4 +1,4 @@
-package Chapter2._3_SQL.DDL.CREATE.CREATE_TABLE_WITH_PK;
+package Chapter3._5_SQL.DDL.CREATE_TABLE_WITH_PK;
 
 import Util.ConnectionUtil;
 
