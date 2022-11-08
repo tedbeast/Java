@@ -22,10 +22,10 @@ public class DropATable {
      * */
     public void dropTable(){
         try {
-            Connection connection = ConnectionUtil.getConnection();
-
             //Write SQL logic here
             String sql = "CHANGE ME";
+
+            Connection connection = ConnectionUtil.getConnection();
 
             PreparedStatement ps = connection.prepareStatement(sql);
 
