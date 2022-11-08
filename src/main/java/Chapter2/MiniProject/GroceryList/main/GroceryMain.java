@@ -15,15 +15,14 @@ import java.util.Scanner;
 public class GroceryMain {
 
     public static void main(String[] args) {
-        GroceryService groceryService = new GroceryService();
+        GroceryDAO groceryDAO = new GroceryDAO();
         databaseSetup();
         boolean active = true;
         while(active) {
             System.out.println("What would you like to do?" +
                     "\n 1: Try to add a grocery item." +
-                    "\n 2: Check if a grocery item is already in the grocery list." +
-                    "\n 3: See all the groceries."+
-                    "\n 4: Quit");
+                    "\n 2: See all the groceries."+
+                    "\n 3: Quit");
             Scanner inputScanner = new Scanner(System.in);
             int inputSelection = inputScanner.nextInt();
             inputScanner.nextLine();
@@ -31,22 +30,13 @@ public class GroceryMain {
                 case 1:
                     System.out.println("What grocery would you like to add?");
                     String grocery = inputScanner.nextLine();
-                    groceryService.addItem(grocery);
+                    groceryDAO.addGrocery(grocery);
                     break;
                 case 2:
-                    System.out.println("What grocery would you like to check for?");
-                    grocery = inputScanner.nextLine();
-                    if (groceryService.containsItem(grocery)) {
-                        System.out.println("That grocery is already in the list.");
-                    } else {
-                        System.out.println("That grocery is not in the list.");
-                    }
+                    System.out.println("Here are all the groceries: ");
+                    groceryDAO.getAllGroceries();
                     break;
                 case 3:
-                    System.out.println("Here are all the groceries: ");
-                    groceryService.getAllGroceries();
-                    break;
-                case 4:
                     System.out.println("Goodbye!");
                     active = false;
                     break;
