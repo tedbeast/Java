@@ -1,4 +1,4 @@
-package Chapter2._3_SQL.DDL.CREATE;
+package Chapter2._3_SQL.DDL.CREATE.CREATE_TABLE;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -26,9 +26,9 @@ public class CreateATable {
      * Songs Table Diagram:
      * |      Title        |        Artist         |
      * ---------------------------------------------
-     * |"Let it be"        |Beatles                |
-     * |"Hotel California" |Eagles                 |
-     * |"Kashmir"          |Led Zeppelin           |
+     * |'Let it be'        |'Beatles'               |
+     * |'Hotel California' |'Eagles'                |
+     * |'Kashmir'          |'Led Zeppelin'          |
      * 
      * Let's create our first SQL table.
      * You can read about the syntax here: https://www.w3schools.com/sql/sql_create_table.asp
@@ -36,11 +36,11 @@ public class CreateATable {
      * Assignment: Create a new table in our database called "songs" with 2 columns "Title" and "Artist".
      */
     public void createTable(){
+        //Write SQL logic here
+        String sql = "CHANGE ME";
+
         try {
             Connection connection = ConnectionUtil.getConnection();
-
-            //Write SQL logic here
-            String sql = "CHANGE ME";
 
             PreparedStatement ps = connection.prepareStatement(sql);
 
