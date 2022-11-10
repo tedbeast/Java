@@ -60,18 +60,19 @@ public class OrderResultSetTest {
         }
     }
 
+
     @Test
     public void testActivityOrderResultSet() {
         try {
-            List<java.lang.Character> expectedList = new LinkedList<>();
-            expectedList.add(new java.lang.Character(3, "Jessica", "Atreides"));
-            expectedList.add(new java.lang.Character(1, "Leto", "Atreides"));
-            expectedList.add(new java.lang.Character(4, "Paul", "Atreides"));
-            expectedList.add(new java.lang.Character(5, "Feyd-Rautha", "Harkonnen"));
-            expectedList.add(new java.lang.Character(2, "Vladimir", "Harkonnen"));
+            List<Character> expectedList = new LinkedList<>();
+            expectedList.add(new Character(3, "Jessica", "Atreides"));
+            expectedList.add(new Character(1, "Leto", "Atreides"));
+            expectedList.add(new Character(4, "Paul", "Atreides"));
+            expectedList.add(new Character(5, "Feyd-Rautha", "Harkonnen"));
+            expectedList.add(new Character(2, "Vladimir", "Harkonnen"));
 
 
-            List<java.lang.Character> resultList = orderResultSetActivity.orderResultSetByName();
+            List<Character> resultList = orderResultSetActivity.orderResultSetByName();
 
             Assert.assertEquals(expectedList, resultList);
         }catch(Exception e) {
