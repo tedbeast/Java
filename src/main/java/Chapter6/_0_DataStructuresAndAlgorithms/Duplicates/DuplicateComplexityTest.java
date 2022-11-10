@@ -34,7 +34,7 @@ public class DuplicateComplexityTest {
     @Test
     public void findDuplicatesTest2(){
         String[] words = generateWords();
-        words[1] = "xyz";
+        words[999] = "xyz";
 //        get system start time
         long benchmarkTime = System.currentTimeMillis();
         dc.findDuplicatesn2(words);

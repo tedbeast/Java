@@ -28,8 +28,6 @@ public class ForLoop {
     public int forExample(int start, int end){
         int sum = 0;
 
-//        code here
-
         return sum;
     }
 }

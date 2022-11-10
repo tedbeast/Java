@@ -1,5 +1,7 @@
 package Chapter6._0_DataStructuresAndAlgorithms.Duplicates;
 
+import java.util.HashSet;
+
 /**
  * There are, as you may imagine, many ways to solve a problem.
  * however, some solutions may be better than others.
@@ -43,6 +45,14 @@ public class DuplicateComplexity {
      * @return true if there are duplicate Strings in words.
      */
     public boolean findDuplicatesFaster(String[] words){
+        HashSet<String> strings = new HashSet<>();
+        for(int i = 0; i < words.length; i++){
+            if(strings.contains(words[i])){
+                return true;
+            }else{
+                strings.add(words[i]);
+            }
+        }
         return false;
     }
 }

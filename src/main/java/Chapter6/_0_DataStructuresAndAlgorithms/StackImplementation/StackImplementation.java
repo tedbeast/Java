@@ -1,5 +1,7 @@
 package Chapter6._0_DataStructuresAndAlgorithms.StackImplementation;
 
+import java.util.Stack;
+
 /**
  * Stack is actually one of the easiest data structures to implement, so we'll start with it.
  * Conceptually, always think of a stack like a real stack of something (plates, papers, etc). Remember that

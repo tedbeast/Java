@@ -5,9 +5,11 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import io.javalin.*;
 import io.javalin.http.Context;
 
+import java.util.Objects;
+
 /**
  *      * You can interact with the Javalin controller by
- *      * a) for GET requests, navigating to the endpoint in your web browser (eg localhost:8080/groceries)
+ *      * a) for GET requests, navigating to the endpoint in your web browser (eg localhost:8080/entries)
  *      * b) for GET requests, using CURL (eg curl localhost:8080/entries). you can use post, but it's difficult to format
  *      * c) use the desktop version of Postman for any type of request
  */
