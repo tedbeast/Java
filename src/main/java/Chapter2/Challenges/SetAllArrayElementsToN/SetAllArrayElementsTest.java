@@ -1,4 +1,4 @@
-package Chapter1.Challenges.SetAllArrayElementsToN;
+package Chapter2.Challenges.SetAllArrayElementsToN;
 
 import org.junit.Assert;
 import org.junit.Test;

@@ -1,4 +1,4 @@
-package Chapter1.Challenges.SetAllArrayElementsToN;
+package Chapter2.Challenges.SetAllArrayElementsToN;
 
 public class SetAllArrayElements {
     /**
