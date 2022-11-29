@@ -1,6 +1,6 @@
 package Chapter5.MiniProject.Mini_Project_5_Library.main;
 
-import Mini_Project_5_Library.main.Controller.LibraryController;
+import Chapter5.MiniProject.Mini_Project_5_Library.main.Controller.LibraryController;
 import Util.ConnectionUtil;
 
 import java.sql.Connection;

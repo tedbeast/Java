@@ -1,7 +1,7 @@
 package Chapter5.MiniProject.Mini_Project_5_Library.main.Service;
 
-import Mini_Project_5_Library.main.DAO.AuthorDAO;
-import Mini_Project_5_Library.main.Model.Author;
+import Chapter5.MiniProject.Mini_Project_5_Library.main.DAO.AuthorDAO;
+import Chapter5.MiniProject.Mini_Project_5_Library.main.Model.Author;
 
 import java.util.List;
 

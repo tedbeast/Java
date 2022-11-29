@@ -1,7 +1,7 @@
 package Chapter4.MiniProject.Mini_Project_4_Flight_Tracker.main.Controller;
 
-import Mini_Project_4_Flight_Tracker.main.Model.Flight;
-import Mini_Project_4_Flight_Tracker.main.Service.FlightService;
+import Chapter4.MiniProject.Mini_Project_4_Flight_Tracker.main.Model.Flight;
+import Chapter4.MiniProject.Mini_Project_4_Flight_Tracker.main.Service.FlightService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.javalin.Javalin;

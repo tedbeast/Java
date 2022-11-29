@@ -1,8 +1,8 @@
 package Chapter5.MiniProject.Mini_Project_5_Library.test.Service;
 
-import Mini_Project_5_Library.main.DAO.BookDAO;
-import Mini_Project_5_Library.main.Model.Book;
-import Mini_Project_5_Library.main.Service.BookService;
+import Chapter5.MiniProject.Mini_Project_5_Library.main.DAO.BookDAO;
+import Chapter5.MiniProject.Mini_Project_5_Library.main.Model.Book;
+import Chapter5.MiniProject.Mini_Project_5_Library.main.Service.BookService;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

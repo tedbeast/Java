@@ -6,12 +6,11 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+import Util.CommandLine;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-
-import com.revature.util.CommandLine;
 
 import io.javalin.Javalin;
 

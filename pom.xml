@@ -49,6 +49,13 @@
             <version>2.1.214</version>
         </dependency>
 
+        <!-- mockito allows for creating mock objects for use of testing service classes with a mock DAO.       -->
+        <!-- https://mvnrepository.com/artifact/org.mockito/mockito-core -->
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>4.9.0</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -71,11 +78,8 @@
 </project>
 
 <!--
-        behold! the work of one man.
-         _                __     __               __                 __
-        / |_             |  ]   [  |             [  |               [  |
-       `| |-' .-.    .-. | |     | | .-.   ,-.    | |  ,-.    .-.    | | -.   .-.    _   __
-        | | / /__\\/ /'`\' |     | '/'`\ \`'_\ :  | | `'_\ : ( (`\]  | .-. |/ .'`\ \[ \ [  ]
-        | |,| \__.,| \__/  |     |  \__/ |// | |, | | // | |, `'.'.  | | | || \__. | \ \/ /
-        \__/ '.__.' '.__.;__]   [__;.__.' \'-;__/[___]\'-;__/[\__) )[___]|__]'.__.'   \__/
+    Authors:
+        Ted Balashov
+        Kevin Childs
+        Kyle Plummer
 -->

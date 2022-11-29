@@ -1,6 +1,6 @@
 package Chapter4.MiniProject.Mini_Project_4_Flight_Tracker.main;
 
-import Mini_Project_4_Flight_Tracker.main.Controller.FlightController;
+import Chapter4.MiniProject.Mini_Project_4_Flight_Tracker.main.Controller.FlightController;
 import Util.ConnectionUtil;
 
 import java.sql.Connection;

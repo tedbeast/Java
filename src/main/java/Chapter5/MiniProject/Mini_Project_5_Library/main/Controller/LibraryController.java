@@ -1,9 +1,9 @@
 package Chapter5.MiniProject.Mini_Project_5_Library.main.Controller;
 
-import Mini_Project_5_Library.main.Model.Author;
-import Mini_Project_5_Library.main.Model.Book;
-import Mini_Project_5_Library.main.Service.AuthorService;
-import Mini_Project_5_Library.main.Service.BookService;
+import Chapter5.MiniProject.Mini_Project_5_Library.main.Model.Author;
+import Chapter5.MiniProject.Mini_Project_5_Library.main.Model.Book;
+import Chapter5.MiniProject.Mini_Project_5_Library.main.Service.AuthorService;
+import Chapter5.MiniProject.Mini_Project_5_Library.main.Service.BookService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.javalin.Javalin;

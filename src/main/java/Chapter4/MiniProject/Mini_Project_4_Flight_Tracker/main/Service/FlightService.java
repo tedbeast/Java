@@ -1,7 +1,7 @@
 package Chapter4.MiniProject.Mini_Project_4_Flight_Tracker.main.Service;
 
-import Mini_Project_4_Flight_Tracker.main.DAO.FlightDAO;
-import Mini_Project_4_Flight_Tracker.main.Model.Flight;
+import Chapter4.MiniProject.Mini_Project_4_Flight_Tracker.main.DAO.FlightDAO;
+import Chapter4.MiniProject.Mini_Project_4_Flight_Tracker.main.Model.Flight;
 
 import java.util.List;
 

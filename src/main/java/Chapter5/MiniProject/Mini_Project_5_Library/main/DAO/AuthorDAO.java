@@ -1,6 +1,6 @@
 package Chapter5.MiniProject.Mini_Project_5_Library.main.DAO;
 
-import Mini_Project_5_Library.main.Model.Author;
+import Chapter5.MiniProject.Mini_Project_5_Library.main.Model.Author;
 import Util.ConnectionUtil;
 
 import java.sql.Connection;

@@ -1,11 +1,10 @@
 package Chapter5._1_Javalin.L1_StatusCodes;
 
+import Util.CommandLine;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-
-import com.revature.util.CommandLine;
 
 import io.javalin.Javalin;
 

@@ -1,8 +1,8 @@
 package Chapter5.MiniProject.Mini_Project_5_Library.test.DAO;
 
-import Mini_Project_5_Library.main.Application;
-import Mini_Project_5_Library.main.DAO.AuthorDAO;
-import Mini_Project_5_Library.main.Model.Author;
+import Chapter5.MiniProject.Mini_Project_5_Library.main.Application;
+import Chapter5.MiniProject.Mini_Project_5_Library.main.DAO.AuthorDAO;
+import Chapter5.MiniProject.Mini_Project_5_Library.main.Model.Author;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

@@ -1,8 +1,8 @@
 package Chapter4.MiniProject.Mini_Project_4_Flight_Tracker.test.Service;
 
-import Mini_Project_4_Flight_Tracker.main.DAO.FlightDAO;
-import Mini_Project_4_Flight_Tracker.main.Model.Flight;
-import Mini_Project_4_Flight_Tracker.main.Service.FlightService;
+import Chapter4.MiniProject.Mini_Project_4_Flight_Tracker.main.DAO.FlightDAO;
+import Chapter4.MiniProject.Mini_Project_4_Flight_Tracker.main.Model.Flight;
+import Chapter4.MiniProject.Mini_Project_4_Flight_Tracker.main.Service.FlightService;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
