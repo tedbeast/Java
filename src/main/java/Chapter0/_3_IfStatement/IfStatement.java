@@ -10,7 +10,7 @@ public class IfStatement {
      * if bool is true, return x.
      * if bool is false, return y.
      *
-     * I recommend looking up the syntax of an if statement here.
+     * Additional Resource if needed: https://www.w3schools.com/java/java_conditions.asp
      *
      * @param bool a true/false value that determines if x or y is to be returned.
      * @param x first number to be compared.

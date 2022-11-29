@@ -4,6 +4,9 @@ package Chapter5.Challenges.LargestSum;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class LargestSumTest {
     LargestSum ls = new LargestSum();
 
@@ -12,7 +15,12 @@ public class LargestSumTest {
      */
     @Test
     public void sumTest1(){
-        int[] nums = {0, 1, 2, 3, 4};
+        List<Integer> nums = new ArrayList<>();
+        nums.add(0);
+        nums.add(1);
+        nums.add(2);
+        nums.add(3);
+        nums.add(4);
         int target = 7;
         Assert.assertEquals(target, ls.bigSum(nums));
     }
@@ -21,7 +29,12 @@ public class LargestSumTest {
      */
     @Test
     public void sumTest2(){
-        int[] nums = {0, 0, 0, 0, 0};
+        List<Integer> nums = new ArrayList<>();
+        nums.add(0);
+        nums.add(0);
+        nums.add(0);
+        nums.add(0);
+        nums.add(0);
         int target = 0;
         Assert.assertEquals(target, ls.bigSum(nums));
     }
@@ -30,7 +43,12 @@ public class LargestSumTest {
      */
     @Test
     public void sumTest3(){
-        int[] nums = {0, 4, 2, 5, 0};
+        List<Integer> nums = new ArrayList<>();
+        nums.add(0);
+        nums.add(4);
+        nums.add(2);
+        nums.add(5);
+        nums.add(0);
         int target = 9;
         Assert.assertEquals(target, ls.bigSum(nums));
     }
@@ -39,7 +57,12 @@ public class LargestSumTest {
      */
     @Test
     public void sumTest4(){
-        int[] nums = {5, 4, 2, 5, 0};
+        List<Integer> nums = new ArrayList<>();
+        nums.add(5);
+        nums.add(4);
+        nums.add(2);
+        nums.add(5);
+        nums.add(0);
         int target = 10;
         Assert.assertEquals(target, ls.bigSum(nums));
     }
