@@ -1,5 +1,7 @@
 package Util;
 
+import org.h2.tools.RunScript;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -24,6 +26,7 @@ public class ConnectionUtil {
         if(connection == null){
             try {
                 connection = DriverManager.getConnection(url, username, password);
+
             } catch (SQLException e) {
                 e.printStackTrace();
             }
